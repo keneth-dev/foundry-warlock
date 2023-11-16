@@ -4,6 +4,7 @@
   "description": "PF2e Warlock for FoundryVTT",
   "main": "index.js",
   "scripts": {
+    "build": "npm run pack:class && npm run pack:patrons && npm run pack:feats && npm run pack:spells && npm run pack:effects && npm run pack:abilities",
     "pack:abilities": "fvtt package pack \"warlock-abilities\" --in src/Abilities",
     "pack:class": "fvtt package pack \"warlock-class\" --in src/Class",
     "pack:effects": "fvtt package pack \"warlock-effects\" --in src/Effects",
