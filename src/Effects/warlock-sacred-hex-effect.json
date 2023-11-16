@@ -1,0 +1,67 @@
+{
+  "name": "Spell Effect: Sacred Hex",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-spells.Item.moDOkmLX9b6Lk3ED]{Warlock's Hex}</p>\n<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra @Damage[1d6[spirit]] damage to the target whenever you hit it with an attack or spell attack. This effect has the holy trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "spirit",
+        "predicate": [
+          "sacred-hex"
+        ]
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "Target is affected by Sacred Hex",
+        "option": "sacred-hex",
+        "toggleable": true
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-sacred-hex-effect",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "holy"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": true
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "5SIkRMkaisycEglf",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "_key": "!items!5SIkRMkaisycEglf"
+}

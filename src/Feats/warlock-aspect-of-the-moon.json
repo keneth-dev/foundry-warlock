@@ -1,0 +1,51 @@
+{
+  "name": "Aspect of the Moon",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading a book and keeping watch.</p>"
+    },
+    "rules": [
+      {
+        "key": "Immunity",
+        "type": "sleep"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-aspect-of-the-moon",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+  "_id": "ADEpneHB4fp0nPaY",
+  "_key": "!items!ADEpneHB4fp0nPaY"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Cryobolus",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>Cryobolus is the enigmatic deity of the myceloid race. It is not bound to a singular form, but rather existing in many places simultaneously. Its spores spread throughout Golarion, allowing it to manifest almost anywhere in the world.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Primal</p>\n<p class=\"hang\"><strong>Skill</strong> Survival</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{Summon Plant or Fungus}, @UUID[Compendium.pf2e.spells-srd.Item.3VxVbZqIRvpKkg3O]{Fungal Infestation}, @UUID[Compendium.pf2e.spells-srd.Item.d9sBzPOXX3KT8uTu]{Grisly Growths}</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.sur.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-cryobolus",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "fungus",
+        "primal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "4T2Utu7IzWcsmJsx",
+  "img": "icons/consumables/mushrooms/alien-spotted-blue.webp",
+  "_key": "!items!4T2Utu7IzWcsmJsx"
+}

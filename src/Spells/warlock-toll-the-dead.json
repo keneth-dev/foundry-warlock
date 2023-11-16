@@ -1,0 +1,151 @@
+{
+  "name": "Toll the Dead",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target takes 1d8 points of void damage. If the target is missing any of its hit points, it instead takes 1d12 points of void damage.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d8/1d12.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-toll-the-dead",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "warlock",
+        "void"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "overlays": {
+      "Sy5jdZOJfn00HjQb": {
+        "name": "Toll the Dead (Full Health)",
+        "system": {
+          "traits": {
+            "value": [
+              "cantrip",
+              "void",
+              "warlock"
+            ]
+          },
+          "damage": {
+            "value": {
+              "bVioOkGS3V86ycbj": {
+                "value": "1d8",
+                "type": {
+                  "value": "void",
+                  "categories": [],
+                  "subtype": ""
+                },
+                "applyMod": false
+              }
+            }
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "bVioOkGS3V86ycbj": "1d8"
+            }
+          }
+        },
+        "_id": "Sy5jdZOJfn00HjQb",
+              "_stats": {
+          "modifiedTime": 1700074880137
+        },
+        "overlayType": "override"
+      },
+      "QW6liNfY4ab1LQYu": {
+        "name": "Toll the Dead (Damaged)",
+        "system": {
+          "traits": {
+            "value": [
+              "cantrip",
+              "void",
+              "warlock"
+            ]
+          },
+          "damage": {
+            "value": {
+              "Cq2SQ9NVEmZYLD7f": {
+                "value": "1d12",
+                "type": {
+                  "value": "void",
+                  "categories": [],
+                  "subtype": ""
+                },
+                "applyMod": false
+              }
+            }
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "Cq2SQ9NVEmZYLD7f": "1d12"
+            }
+          }
+        },
+        "_id": "QW6liNfY4ab1LQYu",
+              "_stats": {
+          "modifiedTime": 1700074960269
+        },
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "I2llkrW68r5kaMZo",
+  "img": "icons/tools/instruments/bell-brass-brown.webp",
+  "_key": "!items!I2llkrW68r5kaMZo"
+}

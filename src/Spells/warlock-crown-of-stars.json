@@ -1,0 +1,84 @@
+{
+  "name": "Crown of Stars",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Seven star-like motes of light appear and orbit your head until the spell ends. Once per round, you can use a free action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack that deals 4d12 points of spirit damage. Whether you hit or miss, the mote is expended. You can make additional attacks with the motes by using a standard action. The spell ends early if you expend the last mote. While the motes remain, they shed bright light like a torch.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.hqIwO214cDIZ4hRw]{Spell Effect: Crown of Stars}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The number of motes increases by 2.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-crown-of-stars",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "light"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour"
+    },
+    "damage": {
+      "value": {
+        "E6mGLYozTlr2F8Z9": {
+          "value": "4d12",
+          "type": {
+            "value": "spirit",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "FuRrosrgHqDdG8iy",
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "_key": "!items!FuRrosrgHqDdG8iy"
+}

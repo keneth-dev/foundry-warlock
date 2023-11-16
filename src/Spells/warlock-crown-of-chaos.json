@@ -1,0 +1,76 @@
+{
+  "name": "Crown of Chaos",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>A shimmering crown appears around your head to protect your mind with a wall of chaotic, looping, and repetitive thoughts. For the duration of the spell, you gain a +2 status bonus to Will saves and resistance 5 to mental damage.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.bVqEHMBhuGHBvQgt]{Spell Effect: Crown of Chaos}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The resistance increases by 5.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-crown-of-chaos",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chaotic",
+        "concentrate",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "Z38qYMCazkrEgRDC",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "_key": "!items!Z38qYMCazkrEgRDC"
+}

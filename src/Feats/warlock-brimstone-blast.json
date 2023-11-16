@@ -1,0 +1,49 @@
+{
+  "name": "Brimstone Blast",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a <em>brimstone blast</em>. A <em>brimstone blast</em> deals fire damage, gains the fire trait, and any creature struck by the blast must make a Reflex saving throw or take an additional 2d6 points of persistent fire damage.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-brimstone-blast",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "warlock",
+        "metamagic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "qIxgaIaGOWcqhoyX",
+  "img": "icons/magic/fire/projectile-embers-orange.webp",
+  "_key": "!items!qIxgaIaGOWcqhoyX"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Nightmares Made Real",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>As @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]{Mirage} except you cloak your surroundings with phantasmagoric figures, creating a horrific dreamscape. Writhing vegetation, disembodied limbs, animated corpses, and smoking pits cover every surface. Miasmic vapors fill the air, along with various foul stenches. The nightmare terrain you create is mostly illusory, but the obstacles are partially real. Creatures starting their turn in the area who failed to disbelieve the illusion take @Damage[2d6[mental]] damage and a −10-foot circumstance penalty to their Speeds until they leave the area.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-nightmares-made-real",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "illusion",
+        "shadow"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": {
+      "value": 50,
+      "type": "burst"
+    },
+    "time": {
+      "value": "10 minutes"
+    },
+    "duration": {
+      "value": "until the next time you Refocus"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "19OpTaHEn1WoqVap",
+  "img": "icons/magic/death/gallows-hanged-humanoid.webp",
+  "_key": "!items!19OpTaHEn1WoqVap"
+}

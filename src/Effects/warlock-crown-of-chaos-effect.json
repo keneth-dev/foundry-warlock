@@ -1,0 +1,60 @@
+{
+  "name": "Spell Effect: Crown of Chaos",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Z38qYMCazkrEgRDC]{Crown of Chaos}</p>\n<p>A shimmering crown appears around your head to protect your mind with a wall of chaotic, looping, and repetitive thoughts. For the duration of the spell, you gain a +2 status bonus to Will saves and resistance 5 to mental damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Crown of Chaos",
+        "selector": "will",
+        "value": 2,
+        "type": "status"
+      },
+      {
+        "key": "Resistance",
+        "value": "5*floor((@item.level)/2)",
+        "type": "mental"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-crown-of-chaos-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-end",
+      "sustained": true
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "bVqEHMBhuGHBvQgt",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "_key": "!items!bVqEHMBhuGHBvQgt"
+}

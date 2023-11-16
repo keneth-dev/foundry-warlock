@@ -1,0 +1,95 @@
+{
+  "name": "Cloud of Daggers",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You fill the air with spinning daggers, centered on a point you choose within range. A creature takes 4d4 points of slashing damage when it enters the spell's area or starts its turn there.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 2d4.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-cloud-of-daggers",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "value": 5,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {
+        "i5rPpxiVdqECKllc": {
+          "value": "4d4",
+          "type": {
+            "value": "slashing",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "i5rPpxiVdqECKllc": "2d4"
+      }
+    }
+  },
+  "_id": "8UPVfrh5N0H3I1Ue",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "_key": "!items!8UPVfrh5N0H3I1Ue"
+}

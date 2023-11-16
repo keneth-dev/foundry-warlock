@@ -1,0 +1,58 @@
+{
+  "name": "Moloch",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>It is said that all who burn join the armies of Moloch. A being of seething wrath, the Lord of the Sixth is an embodiment of the most devastating, inhuman aspects of war, a creature of fearsome black metal and spiked armor encrusted with the blood of countless opponents.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Divine</p>\n<p class=\"hang\"><strong>Skill</strong> Intimidation</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire}, @UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}, @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.int.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-moloch",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "evil",
+        "fire",
+        "devil",
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "pGHhfLK2Axrb9ZkB",
+  "img": "icons/creatures/unholy/demon-fanged-horned-yellow.webp",
+  "_key": "!items!pGHhfLK2Axrb9ZkB"
+}

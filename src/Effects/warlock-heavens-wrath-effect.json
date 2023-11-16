@@ -1,0 +1,74 @@
+{
+  "name": "Spell Effect: Heaven's Wrath",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-feats.Item.aBqF913awsFYUIBp]{Heaven's Wrath}</p>\n<p>While in this state, your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} and @UUID[Compendium.pf2e-warlock.warlock-spells.Item.moDOkmLX9b6Lk3ED]{Warlock's Hex} invocations deal spirit damage and gain the holy trait. You gain a +2 status bonus to all attacks targeting creatures with the devil trait. If you score a critical hit against a devil with any of your attacks (including spell attacks), you deal an additional @Damage[1d6[persistent,spirit]] damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "override": {
+          "damageType": "spirit"
+        },
+        "selector": "spell-damage",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:warlock-eldritch-blast",
+              "item:slug:warlock-eldritch-breath-spell",
+              "item:slug:warlock-eldritch-doom-spell",
+              "item:slug:warlock-eldritch-rift-spell"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": 2,
+        "predicate": [
+          "target:trait:devil"
+        ],
+        "type": "status"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-heavens-wrath-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "gINuKht5LpscddZk",
+  "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
+  "_key": "!items!gINuKht5LpscddZk"
+}

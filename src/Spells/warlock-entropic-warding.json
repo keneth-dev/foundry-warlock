@@ -1,0 +1,73 @@
+{
+  "name": "Entropic Warding",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Chaotic energies swirl about you, deflecting incoming ranged attacks. You gain a +2 status bonus to AC against ranged attacks. In addition, you conceal your tracks (as @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]{Vanishing Tracks}) and cannot be tracked by scent (though you can still be detected).</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.g5J8fNmCL5PdlaK0]{Spell Effect: Entropic Warding}</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-entropic-warding",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "xsoMRlglepn12EcB",
+  "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+  "_key": "!items!xsoMRlglepn12EcB"
+}

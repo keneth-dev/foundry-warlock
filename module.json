@@ -1,0 +1,156 @@
+{
+  "id": "pf2e-warlock",
+  "title": "Warlock for PF2e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+            "minimum": "5.0.0",
+            "verified": "5.9.0"
+        }
+      }
+    ]
+  },
+  "description": "A faithful implementation of the Warlock class for Pathfinder 2e.",
+  "authors": [
+    {
+      "name": "Keneth",
+      "discord": "keneth_",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/keneth-dev/foundry-warlock",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "warlock-class",
+      "label": "Class",
+      "path": "packs/warlock-class",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/purple.webp",
+      "flags": {}
+    },
+    {
+      "name": "warlock-abilities",
+      "label": "Abilities",
+      "path": "packs/warlock-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "flags": {}
+    },
+    {
+      "name": "warlock-effects",
+      "label": "Effects",
+      "path": "packs/warlock-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "flags": {}
+    },
+    {
+      "name": "warlock-feats",
+      "label": "Feats",
+      "path": "packs/warlock-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "flags": {}
+    },
+    {
+      "name": "warlock-patrons",
+      "label": "Patrons",
+      "path": "packs/warlock-patrons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "flags": {}
+    },
+    {
+      "name": "warlock-spells",
+      "label": "Invocations",
+      "path": "packs/warlock-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Warlock",
+      "sorting": "m",
+      "packs": [
+        "warlock-class",
+        "warlock-patrons",
+        "warlock-feats",
+        "warlock-spells",
+        "warlock-effects",
+        "warlock-abilities"
+      ]
+    }
+  ],
+  "flags": {
+    "pf2e-warlock": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "angel": "Angel",
+          "construct": "Construct",
+          "demon": "Demon",
+          "devil": "Devil",
+          "evil": "Evil",
+          "fey": "Fey",
+          "good": "Good",
+          "undead": "Undead",
+          "warlock": "Warlock"
+        },
+        "spellTraits": {
+          "warlock": "Warlock"
+        }
+      }
+    }
+  },
+  "changelog": "https://raw.githubusercontent.com/keneth-dev/foundry-warlock/main/CHANGELOG.md",
+  "manifest": "https://raw.githubusercontent.com/keneth-dev/foundry-warlock/main/module.json",
+  "download": "https://github.com/keneth-dev/foundry-warlock/archive/refs/heads/main.zip",
+  "readme": "https://github.com/keneth-dev/foundry-warlock",
+  "bugs": "https://github.com/keneth-dev/foundry-warlock/issues"
+}

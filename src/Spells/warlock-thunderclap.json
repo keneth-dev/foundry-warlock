@@ -1,0 +1,95 @@
+{
+  "name": "Thunderclap",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You create a burst of thunderous sound, which can be heard up to 1 mile away. Each creature in the area (other than you) takes 1d6 points of sonic damage.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-thunderclap",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "warlock",
+        "sonic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 5,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "rXRt6atdxf3zrPHQ": {
+          "value": "1d6",
+          "type": {
+            "value": "sonic",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "rXRt6atdxf3zrPHQ": "1d6"
+      }
+    }
+  },
+  "_id": "GtSUXItX3EU4rJBe",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "_key": "!items!GtSUXItX3EU4rJBe"
+}

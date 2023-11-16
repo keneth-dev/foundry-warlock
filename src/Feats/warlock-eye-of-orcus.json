@@ -1,0 +1,57 @@
+{
+  "name": "Eye of Orcus",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Orcus grants you the ability to perceive the life force of creatures around you. You gain lifesense as an imprecise sense out to 120 ft.</p>"
+    },
+    "rules": [
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 120,
+        "selector": "lifesense"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eye-of-orcus",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Orcus patron"
+        }
+      ]
+    }
+  },
+  "_id": "HSTyDQUMu1ndy7ZD",
+  "img": "icons/creatures/eyes/humanoid-single-blind.webp",
+  "_key": "!items!HSTyDQUMu1ndy7ZD"
+}

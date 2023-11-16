@@ -1,0 +1,46 @@
+{
+  "name": "Shroud of Shadows",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can cast @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{Mystic Armor} on yourself at will, without expending a Focus Point. The spell gains the shadow trait.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-shroud-of-shadows",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "_id": "LULOHppt6s1wjrni",
+  "_key": "!items!LULOHppt6s1wjrni"
+}

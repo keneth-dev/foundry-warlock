@@ -1,0 +1,74 @@
+{
+  "name": "Scatter",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Will saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-scatter",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "teleportation"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "5 creatures"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "OQkZVnwk1XNCosTy",
+  "img": "icons/magic/water/projectile-needles-salvo-blue.webp",
+  "_key": "!items!OQkZVnwk1XNCosTy"
+}

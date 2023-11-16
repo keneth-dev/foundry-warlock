@@ -1,0 +1,59 @@
+{
+  "name": "Orcus",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>Orcus is the demon lord of the undead and those who practice vile necromancy. Though his influence on Golarion is relatively small, his cults aggresively work to fulfil his schemes.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Arcane</p>\n<p class=\"hang\"><strong>Skill</strong> Arcana</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e.spells-srd.Item.JhRuR7Jj3ViShpq7]{Ghoulish Cravings}, @UUID[Compendium.pf2e.spells-srd.Item.GzN9bG6cKZ96YC6l]{Claim Undead}</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.arc.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-orcus",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "arcane",
+        "evil",
+        "demon",
+        "undead",
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "aHqdV99Jf6HXdT75",
+  "img": "icons/magic/death/skull-flames-white-blue.webp",
+  "_key": "!items!aHqdV99Jf6HXdT75"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Brood of Hadar",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Trigger</strong> A creature is reduced to 0 HP by one of your invocations.</p>\n<hr />\n<p>Your foe screams, clutches its head, and falls. Flying, fluttering, fanged shadows pour from your foe's open eyes, mouth, and ears, and descend upon one of your foe's allies within 10 feet of them, dealing 8d6 points of void damage.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-brood-of-hadar",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "value": 10,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "reaction"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "NmNPWHQCxSRV1Ubz": {
+          "value": "8d6",
+          "type": {
+            "value": "void",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "reflex",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "NmNPWHQCxSRV1Ubz": "2d6"
+      }
+    }
+  },
+  "_id": "nSdMrOc6WN2Bc7CM",
+  "img": "icons/magic/control/encase-creature-spider-hold.webp",
+  "_key": "!items!nSdMrOc6WN2Bc7CM"
+}

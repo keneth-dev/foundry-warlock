@@ -1,0 +1,89 @@
+{
+  "name": "Sickening Radiance",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Dim, greenish light spreads within a sphere centered on a point you choose within range. Any creature ends its turn in the area takes 4d10 points of void damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} unless they succeed on a Fortitude saving throw. Creatures within the area also emit a dim, greenish light that makes it impossible for them to benefit from being invisible.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-sickening-radiance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "void"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 30,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 10 minutes"
+    },
+    "damage": {
+      "value": {
+        "njY6n0qzddeXs5lV": {
+          "value": "4d10",
+          "type": {
+            "value": "void",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "XWDYV6xbGt8OY4xR",
+  "img": "icons/magic/control/silhouette-hold-change-green.webp",
+  "_key": "!items!XWDYV6xbGt8OY4xR"
+}

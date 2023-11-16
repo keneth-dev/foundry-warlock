@@ -1,0 +1,46 @@
+{
+  "name": "Beast Speech",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain a rapport with the beasts of the world. You can communicate with animals as if under the effect of @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak with Animals}.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-beast-speech",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "_id": "QYTPoGyuorAXL0p9",
+  "_key": "!items!QYTPoGyuorAXL0p9"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Arms of Hadar",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you.</p>\n<p class=\"hang\"><strong>Critical Success</strong> The creature is unaffected.</p>\n<p class=\"hang\"><strong>Success</strong> The creature takes half damage but suffers no other effect.</p>\n<p class=\"hang\"><strong>Failure</strong> The creature takes 2d6 points of bludgeoning damage and cannot use reactions until its next turn.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-arms-of-hadar",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 10,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "hHE0TMTZbknlCIgQ": {
+          "value": "2d6",
+          "type": {
+            "value": "bludgeoning",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "reflex",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "hHE0TMTZbknlCIgQ": "1d6"
+      }
+    }
+  },
+  "_id": "NQoYwoYILUds3Hhz",
+  "img": "icons/creatures/tentacles/tentacles-thing-green.webp",
+  "_key": "!items!NQoYwoYILUds3Hhz"
+}

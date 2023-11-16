@@ -1,0 +1,58 @@
+{
+  "name": "Ulistul",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>Having replaced over half her body with scavenged and rebuilt parts, Ulistul is a patchwork juggernaut and stubborn survivor. She seeks to bring forth a new golden age for the Jistka Imperium with her army of automatons and golems.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Arcane</p>\n<p class=\"hang\"><strong>Skill</strong> Crafting</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{Mending}, @UUID[Compendium.pf2e.spells-srd.Item.lKcsmeOrgHtK4xQa]{Summon Construct}, @UUID[Compendium.pf2e.spells-srd.Item.BoA00y45uDlmou07]{Secret Chest}</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.cra.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-ulistul",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "arcane",
+        "automaton",
+        "construct",
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "59QAtkziFndTQozG",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "_key": "!items!59QAtkziFndTQozG"
+}

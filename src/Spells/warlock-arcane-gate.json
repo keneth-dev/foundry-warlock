@@ -1,0 +1,76 @@
+{
+  "name": "Arcane Gate",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You create linked teleportation portals that remain open for the duration. Choose two points on a flat surface that you can see. A circular portal, 10 feet in diameter, opens at each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost. The portals are two-dimensional glowing rings swirling with mist.</p>\n<p>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other. The mist that fills each portal is opaque and blocks vision through it.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-arcane-gate",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "teleportation"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 10 minutes"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "ZceI8bCceAzTuxGi",
+  "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+  "_key": "!items!ZceI8bCceAzTuxGi"
+}

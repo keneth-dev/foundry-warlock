@@ -1,0 +1,91 @@
+{
+  "name": "Hellish Rebuke",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Trigger</strong> you are damaged by a creature</p>\n<hr />\n<p>You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature takes 2d10 points of fire damage.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-hellish-rebuke",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "reaction"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "70pE2SJF3PFTFtcU": {
+          "value": "2d10",
+          "type": {
+            "value": "fire",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "reflex",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "70pE2SJF3PFTFtcU": "1d10"
+      }
+    }
+  },
+  "_id": "wcwPCXgPSS0U3Nxx",
+  "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+  "_key": "!items!wcwPCXgPSS0U3Nxx"
+}

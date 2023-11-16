@@ -1,0 +1,56 @@
+{
+  "name": "Hellspawned Grace",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You channel the power of Hell to transform into a hellcat battle form. While in this form, you gain the beast and evil traits. You can Dismiss the effect.</p>\n<p>You gain the following characteristics and abilities:</p>\n<ul>\n<li>Your size changes to Large.</li>\n<li>Your stride Speed is 35 feet.</li>\n<li>AC = 22 + your level. Ignore your armor check's penalty and Speed reduction.</li>\n<li>Resistance 5 to physical damage (except silver), and weakness 5 to spirit damage.</li>\n<li>Resistance 10 to fire.</li>\n<li>Darkvision.</li>\n<li>Athletics modifier of +23, unless your own modifier is higher.</li>\n<li><strong>Fade into the Light</strong> <span class=\"action-glyph\">r</span> (illusion)<br /><strong>Trigger</strong> You begin your turn in bright light.<br /><strong>Effect</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} until you are no longer in bright light. If the you use a hostile action, the invisibility ends after that hostile action is completed.</li>\n</ul>\n<p>You gain the following attacks. You are trained with them. Your attack modifier with these attacks is +20, unless your own attack modifier is higher, and you use the listed damage. These attacks are Strength based.</p>\n<ul>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> jaws, <strong>Damage</strong> 2d12+10 piercing</li>\n<li><strong>Melee</strong> <span class=\"action-glyph\">1</span> claw (agile), <strong>Damage</strong> 2d8+10 slashing</li>\n</ul>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-hellspawned-grace",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "polymorph"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.5k46iDq8grinyqoA",
+      "name": "Spell Effect: Hellspawned Grace"
+    }
+  },
+  "_id": "9bdyqKlEqydYl8W5",
+  "img": "icons/magic/control/fear-fright-monster-red.webp",
+  "_key": "!items!9bdyqKlEqydYl8W5"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Eldritch Rift",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a 60-foot line by opening a rift in space. Creatures caught in the area must succeed on a basic Reflex saving throw or take your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} damage.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-rift-spell",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "force",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 60,
+      "type": "line"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "CvI3dXwCQ9DF3mWY": {
+          "value": "1d10",
+          "type": {
+            "value": "force",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "reflex",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "CvI3dXwCQ9DF3mWY": "1d10"
+      }
+    }
+  },
+  "_id": "EYgHi541DTclpZhv",
+  "img": "icons/magic/lightning/bolt-strike-sparks-purple.webp",
+  "_key": "!items!EYgHi541DTclpZhv"
+}

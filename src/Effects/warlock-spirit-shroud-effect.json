@@ -1,0 +1,107 @@
+{
+  "name": "Spell Effect: Spirit Shroud",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-spells.Item.mxOhbzlKqGgn5r86]{Spirit Shroud}</p>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p>You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable.</p>\n<p>Until the spell ends, any melee attack you make deals 1d8 points of void damage. Any creature that takes this damage can't regain hit points for 1 round.</p>\n<p>In addition, any creature within the area takes −10-foot circumstance penalty to their Speeds from the swarming souls until they leave the area.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The damage increases by 1d8.</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "predicate": [
+          "melee"
+        ],
+        "selector": "damage",
+        "dieSize": "d8",
+        "damageType": "void",
+        "value": {
+          "brackets": [
+            {
+              "end": 4,
+              "value": {
+                "diceNumber": 1
+              }
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "value": {
+                "diceNumber": 2
+              }
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "value": {
+                "diceNumber": 3
+              }
+            },
+            {
+              "start": 9,
+              "value": {
+                "diceNumber": 4
+              }
+            }
+          ],
+          "field": "item|system.level.value"
+        }
+      },
+      {
+        "key": "Aura",
+        "radius": 20,
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.jSpiHx6tRwt5I8nE",
+            "affects": "enemies",
+            "events": [
+              "enter"
+            ]
+          }
+        ],
+        "appearance": {
+          "highlight": {
+            "alpha": 0
+          },
+          "border": null
+        }
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-spirit-shroud-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": true
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "g3UjLQ1KA29RZMoo",
+  "img": "icons/creatures/magical/spirit-mischief-fire-ice-blue.webp",
+  "_key": "!items!g3UjLQ1KA29RZMoo"
+}

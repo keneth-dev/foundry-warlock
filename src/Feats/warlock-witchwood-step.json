@@ -1,0 +1,46 @@
+{
+  "name": "Witchwood Step",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your footsteps become supernaturally sure and supportive. You ignore any movement impediments from difficult terrain and can walk on water as the @UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{Water Walk} spell.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "1AB23hPYx9EiflMs",
+  "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+  "_key": "!items!1AB23hPYx9EiflMs"
+}

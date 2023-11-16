@@ -1,0 +1,57 @@
+{
+  "name": "Blameless Flame",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p><em>Blameless Flame is a feathered serpent wreathed in the righteous fire of a gold dragon's breath weapon. He travels the world in search of blasphemous texts or items, immolating them in holy fire.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Divine</p>\n<p class=\"hang\"><strong>Skill</strong> Religion</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}, @UUID[Compendium.pf2e.spells-srd.Item.DyiD239dNS7RIxZE]{Holy Light}, @UUID[Compendium.pf2e.spells-srd.Item.y7Tusv3CieZktkkV]{Flame Barrier}</p>\n</div>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.rel.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-blameless-flame",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "divine",
+        "fire",
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "9gPrTLGjdaRbSgoJ",
+  "img": "systems/pf2e/icons/spells/eat-fire.webp",
+  "_key": "!items!9gPrTLGjdaRbSgoJ"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Eldritch Spear",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you cast <em>eldritch blast</em>, you can extend its range to 300 feet.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-spear",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "metamagic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
+  "_id": "kchrP1494HGuMzew",
+  "_key": "!items!kchrP1494HGuMzew"
+}

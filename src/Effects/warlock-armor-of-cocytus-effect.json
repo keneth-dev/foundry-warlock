@@ -1,0 +1,52 @@
+{
+  "name": "Spell Effect: Armor of Cocytus",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-warlock.warlock-spells.Item.jAvmKDTBACjL17oS]{Armor of Cocytus}</p>\n<p>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain [[/r 5*@item.level]] temporary HP for the duration.</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "5*@item.level"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-armor-of-cocytus-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "qpoQth29G2ZAk2Rh",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
+  "_key": "!items!qpoQth29G2ZAk2Rh"
+}

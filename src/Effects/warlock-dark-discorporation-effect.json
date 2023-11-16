@@ -1,0 +1,85 @@
+{
+  "name": "Spell Effect: Dark Discorporation",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-feats.Item.h1vcrSUHRbkPF7L5]{Dark Discorporation}</p>\n<p>One with the powers of darkness, you learn to abandon your body. When you use this ability, you become a swarm of tiny, batlike shadows.</p>"
+    },
+    "rules": [
+      {
+        "key": "BattleForm",
+        "overrides": {
+          "armorClass": {
+            "modifier": "22 + @actor.level"
+          },
+          "resistances": [
+            {
+              "type": "physical",
+              "value": 10
+            }
+          ],
+          "weaknesses": [
+            {
+              "type": "area-damage",
+              "value": 5
+            },
+            {
+              "type": "splash-damage",
+              "value": 5
+            }
+          ],
+          "size": "huge",
+          "speeds": {
+            "fly": 40
+          },
+          "traits": [
+            "shadow",
+            "swarm"
+          ]
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlock.warlock-abilities.Item.DJJTy6mRTnwjUAhw",
+        "allowDuplicate": false
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-dark-discorporation-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 20
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "JC1f3m7nwuPcid8f",
+  "img": "icons/creatures/mammals/bats-movement-flying-black.webp",
+  "_key": "!items!JC1f3m7nwuPcid8f"
+}

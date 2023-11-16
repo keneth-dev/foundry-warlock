@@ -1,0 +1,46 @@
+{
+  "name": "Whispers of the Grave",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain the ability to communicate with the dead. You can cast @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{Talking Corpse} at will, without expending a Focus Point.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-whispers-of-the-grave",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "taYWdkEEhHHD4TJs",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+  "_key": "!items!taYWdkEEhHHD4TJs"
+}

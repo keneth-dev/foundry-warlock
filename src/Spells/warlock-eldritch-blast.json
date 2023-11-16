@@ -1,0 +1,94 @@
+{
+  "name": "Eldritch Blast",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>A ray of crackling energy streaks toward a creature within range. Make a spell attack roll against the target. The ray deals 1d10 points of force damage.</p>\n<p>For each additional action you use when Casting the Spell, you can fire an additional ray at a different target, to a maximum of three rays targeting three different targets for 3 actions.</p>\n<p>These attacks each increase your multiple attack penalty, but you don't increase your multiple attack penalty until after you make all the spell attack rolls.</p>\n<p class=\"hang\"><strong>Critical Success</strong> The damage is doubled.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-blast",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "force",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 or more creatures"
+    },
+    "range": {
+      "value": "120"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "8f5q7cUyTaHDiIZa": {
+          "value": "1d10",
+          "type": {
+            "value": "force",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "overlays": {},
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "8f5q7cUyTaHDiIZa": "1d10"
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/spells/admonishing-ray.webp",
+  "_id": "Nur1CbemWaor1hcv",
+  "_key": "!items!Nur1CbemWaor1hcv"
+}

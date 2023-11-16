@@ -1,0 +1,58 @@
+{
+  "name": "Hadar",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>Hadar, the Dark Hunger, is a star-like god from the Dark Tapestry who has taken a place among the stars of Golarion. Unlike normal stars, Hadar doesn't have a fixed place but instead dances and wavers, bareley visible across Golarion's night sky.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Occult</p>\n<p class=\"hang\"><strong>Skill</strong> Occultism</p>\n<p class=\"hang\"><strong>Invocations</strong> <em>arms of hadar</em>, <em>hunger of hadar</em>, <em>brood of hadar</em></p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occ.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-hadar",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "aberration",
+        "evil",
+        "warlock",
+        "occult"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "CtMFxbdDgcpuTxcz",
+  "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+  "_key": "!items!CtMFxbdDgcpuTxcz"
+}

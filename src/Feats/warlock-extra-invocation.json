@@ -1,0 +1,46 @@
+{
+  "name": "Extra Invocation",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn an additional invocation up to the highest rank that you can invoke.<br />    <strong>Special</strong> You can take this feat multiple times. Each time you do, you learn a different invocation.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-extra-invocation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/sundries/books/book-embossed-spiral-purple-white.webp",
+  "_id": "AyooNmEk803xoGuP",
+  "_key": "!items!AyooNmEk803xoGuP"
+}

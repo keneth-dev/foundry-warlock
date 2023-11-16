@@ -1,0 +1,48 @@
+{
+  "name": "Eldritch Doom",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your next @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} explodes into a 20-foot emanation around you. Creatures caught in the area must succeed on a basic Reflex saving throw or take your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} damage.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-doom",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "metamagic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "0Zd2eGfegPxHjvi0",
+  "img": "icons/magic/fire/explosion-fireball-medium-purple-pink.webp",
+  "_key": "!items!0Zd2eGfegPxHjvi0"
+}

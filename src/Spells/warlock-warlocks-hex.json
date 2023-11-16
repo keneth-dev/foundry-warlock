@@ -1,0 +1,76 @@
+{
+  "name": "Warlock's Hex",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 points of void damage to the target whenever you hit it with an attack or spell attack.</p>\n<p>If the target drops to 0 hit points before this spell ends, you can use an action <span class=\"action-glyph\">1</span> on a subsequent turn of yours to curse a new creature.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.zjR1OTkGeQO9nu1N]{Spell Effect: Warlock's Hex}</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.sorlG2qRMINk7AA0]{Spell Effect: Burning Hex}</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.kyMcrlwkiY0rsVch]{Spell Effect: Maddening Hex}</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.5SIkRMkaisycEglf]{Spell Effect: Sacred Hex}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (3rd)</strong> Can be sustained up to 8 hours.</p>\n<p class=\"hang\"><strong>Heightened (5th)</strong> Can be sustained up to 1 day.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-warlocks-hex",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "curse",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "90 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 hour"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "moDOkmLX9b6Lk3ED",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "_key": "!items!moDOkmLX9b6Lk3ED"
+}

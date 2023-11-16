@@ -1,0 +1,46 @@
+{
+  "name": "Warlock's Call",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn the @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Planar Servitor} ritual, allowing you to bind outsiders to your service. You can perform the ritual with fewer secondary casters than listed but, for each missing secondary caster, you increase the DC of all skill checks involved by +1 and must perform those skill checks yourself.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-warlocks-call",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "mljP6NO5tp9N9uyG",
+  "img": "icons/creatures/unholy/demon-winged-cyclops-drooling.webp",
+  "_key": "!items!mljP6NO5tp9N9uyG"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Brimstone Blast",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a <em>brimstone blast</em>. A <em>brimstone blast</em> deals fire damage, gains the fire trait, and if you critically hit a creature, it takes an additional @Damage[1d6[persistent,fire]] damage per spell rank.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-brimstone-blast-spell",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "fire",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 or more creatures"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "dkrMkdJ0EmIAzELm": {
+          "value": "1d10",
+          "type": {
+            "value": "fire",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "dkrMkdJ0EmIAzELm": "1d10"
+      }
+    }
+  },
+  "_id": "IqGDyqapdM9IQ6aO",
+  "img": "icons/magic/fire/projectile-embers-orange.webp",
+  "_key": "!items!IqGDyqapdM9IQ6aO"
+}

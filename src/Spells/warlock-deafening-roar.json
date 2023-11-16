@@ -1,0 +1,94 @@
+{
+  "name": "Deafening Roar",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You unleash an earsplitting roar that damages and deafens creatures, as @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]{Sound Burst}.</p>\n<p><strong>Conditions:</strong> @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-deafening-roar",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "sonic"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 30,
+      "type": "cone"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "hFc4eN1JQzUbbltm": {
+          "value": "2d10",
+          "type": {
+            "value": "sonic",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "hFc4eN1JQzUbbltm": "1d10"
+      }
+    }
+  },
+  "_id": "JLavZeyt9G8jfYeJ",
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "_key": "!items!JLavZeyt9G8jfYeJ"
+}

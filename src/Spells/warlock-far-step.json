@@ -1,0 +1,84 @@
+{
+  "name": "Far Step",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Stride} or a @UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]{Sustain a Spell} action to teleport in this way again.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-far-step",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "teleportation"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    }
+  },
+  "_id": "Cnis7WXBs0e6u9Lj",
+  "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
+  "_key": "!items!Cnis7WXBs0e6u9Lj"
+}

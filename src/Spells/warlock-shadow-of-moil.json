@@ -1,0 +1,80 @@
+{
+  "name": "Shadow of Moil",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p>Flame-like shadows wreathe your body until the spell ends, causing you to become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to others. The shadows turn dim light within the area into darkness, and bright light in the same area to dim light.</p>\n<p>Whenever a creature within the area of the flames hits you with an attack, the shadows lash out at that creature, dealing it @Damage[2d8[void]] damage.</p>\n</div>\n</div>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-shadow-of-moil",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "darkness",
+        "warlock",
+        "shadow"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 10,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "PXxVodRo9J4S5Qhv",
+  "img": "icons/magic/fire/barrier-wall-flame-ring-blue.webp",
+  "_key": "!items!PXxVodRo9J4S5Qhv"
+}

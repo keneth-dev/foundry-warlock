@@ -1,0 +1,19 @@
+{
+  "name": "pf2e-warlock",
+  "version": "1.0.0",
+  "description": "PF2e Warlock for FoundryVTT",
+  "main": "index.js",
+  "scripts": {
+    "pack:abilities": "fvtt package pack \"warlock-abilities\" --in src/Abilities",
+    "pack:class": "fvtt package pack \"warlock-class\" --in src/Class",
+    "pack:effects": "fvtt package pack \"warlock-effects\" --in src/Effects",
+    "pack:feats": "fvtt package pack \"warlock-feats\" --in src/Feats",
+    "pack:patrons": "fvtt package pack \"warlock-patrons\" --in src/Patrons",
+    "pack:spells": "fvtt package pack \"warlock-spells\" --in src/Spells"
+  },
+  "author": "Keneth",
+  "license": "MIT",
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
+  }
+}

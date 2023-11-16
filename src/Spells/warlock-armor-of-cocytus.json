@@ -1,0 +1,91 @@
+{
+  "name": "Armor of Cocytus",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary HP for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.qpoQth29G2ZAk2Rh]{Spell Effect: Armor of Cocytus}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The HP and damage increase by 5.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-armor-of-cocytus",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour"
+    },
+    "damage": {
+      "value": {
+        "rsVCTWysFFTtGT2T": {
+          "value": "5",
+          "type": {
+            "value": "cold",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "rsVCTWysFFTtGT2T": "5"
+      }
+    }
+  },
+  "_id": "jAvmKDTBACjL17oS",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
+  "_key": "!items!jAvmKDTBACjL17oS"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Swarming Bites",
+  "type": "action",
+  "system": {
+    "description": {
+      "value": "<p>Each creature sharing your space takes @Damage[10d10[void]] damage unless it succceeds on a @Check[type:reflex|dc:resolve(@actor.attributes.spellDC.value)|basic:true] save.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-swarming-bites",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "_id": "DJJTy6mRTnwjUAhw",
+  "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+  "_key": "!items!DJJTy6mRTnwjUAhw"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Foul Bargain",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You call upon your patron to help you resolve a difficult situation. You must negotatiate the details of this favor with your GM and whatever boon you acquire usually comes at a price, unless your patron chooses to reward you for past services.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-foul-bargain",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "Hccl8H3FbvVQnv8j",
+  "img": "icons/sundries/scrolls/scroll-writing-tan-grey.webp",
+  "_key": "!items!Hccl8H3FbvVQnv8j"
+}

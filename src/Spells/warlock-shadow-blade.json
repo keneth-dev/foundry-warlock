@@ -1,0 +1,86 @@
+{
+  "name": "Shadow Blade",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You weave together threads of shadow to create a sword of solidified gloom in your hand. Strikes with the weapon are melee weapon attacks, but they use your spell attack modifier. On a hit, the target takes 2d8 points of spirit damage plus your spellcasting ability modifier. On a critical hit, the blade deals double damage. In addition, when you use the sword to attack a target that is in dim light or darkness, you gain a +2 circumstance bonus to the attack.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-shadow-blade",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "shadow"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {
+        "M9WbdzP6YbE1NT8l": {
+          "value": "2d8",
+          "type": {
+            "value": "spirit",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": true
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "X0DS6S4X6dLqLm9H",
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-purple-orange.webp",
+  "_key": "!items!X0DS6S4X6dLqLm9H"
+}

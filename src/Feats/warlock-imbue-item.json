@@ -1,0 +1,52 @@
+{
+  "name": "Imbue Item",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{Magical Crafting} feat if you don't already have it. You can attempt to create a familiar item without knowing its formula by increasing the DC of the crafting task by +2.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1",
+        "allowDuplicate": false
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-imbue-item",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "33kcP2SKO32WMqOw",
+  "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
+  "_key": "!items!33kcP2SKO32WMqOw"
+}

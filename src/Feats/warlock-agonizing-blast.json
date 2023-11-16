@@ -1,0 +1,59 @@
+{
+  "name": "Agonizing Blast",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you cast @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast}, add your Charisma modifier to the damage it deals on a hit.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": "@actor.abilities.cha.mod",
+        "selector": "spell-damage",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:warlock-eldritch-blast"
+            ]
+          }
+        ]
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-agonizing-blast",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/magic/lightning/bolt-strike-purple.webp",
+  "_id": "brmvTi7fct82Xxhb",
+  "_key": "!items!brmvTi7fct82Xxhb"
+}

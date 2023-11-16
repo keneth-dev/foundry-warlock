@@ -1,0 +1,48 @@
+{
+  "name": "Eldritch Rift",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a 60-foot line by opening a rift in space. Creatures caught in the area must succeed on a basic Reflex saving throw or take your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} damage.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-rift",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "manipulate",
+        "metamagic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "HHgjCHGgWkEKKuoo",
+  "img": "icons/magic/lightning/bolt-strike-sparks-purple.webp",
+  "_key": "!items!HHgjCHGgWkEKKuoo"
+}

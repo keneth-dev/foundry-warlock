@@ -1,0 +1,47 @@
+{
+  "name": "Fiendish Flamewrath",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You immolate yourself in wispy flames that don't hurt you but deal 2d6 points of fire damage to any adjacent creature that hits you with a melee attack, as well as any creature that touches or hits you with an unarmed attack. The flames last for until the start of your next turn. The damage increases by 1d6 at 12th, 16th, and 20th level.</p>\n<p><strong>Damage:</strong> @Damage[floor(@actor.level/4)d6[fire]]</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-fiendish-flamewrath",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire",
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "DQ9orvbCDTSGyHMU",
+  "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
+  "_key": "!items!DQ9orvbCDTSGyHMU"
+}

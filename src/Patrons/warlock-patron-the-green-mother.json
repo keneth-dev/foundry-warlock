@@ -1,0 +1,57 @@
+{
+  "name": "The Green Mother",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>The Green Mother embodies seduction as an integral, dangerous part of the natural world, unbound by conventional notions of morality. She views herself as an impartial guide for natural selection by exploiting weaknesses.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Primal</p>\n<p class=\"hang\"><strong>Skill</strong> Nature</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.7tp97g0UCJ9wOrd5]{Withering Grasp}, @UUID[Compendium.pf2e.spells-srd.Item.KsWhliKfUs3IpW3c]{Wall of Thorns}, @UUID[Compendium.pf2e.spells-srd.Item.LX4pCagYLpc9hEji]{Aromatic Lure}</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.nat.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-the-green-mother",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "fey",
+        "warlock",
+        "primal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "a38ytvXrOZUL8lx5",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "_key": "!items!a38ytvXrOZUL8lx5"
+}

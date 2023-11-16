@@ -1,0 +1,74 @@
+{
+  "name": "Dread Seizure",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You speak a word that sends wracking pain through the limbs of a single creature. Though these seizures are not powerful enough to immobilize the creature, they take a −10-foot status penalty to all their Speeds and become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for the duration of the effect.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.OBHipNLXIY9zZP9V]{Spell Effect: Dread Seizure}</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-dread-seizure",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "incapacitation"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "3 rounds"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "uOLiayLidSu5d0uJ",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "_key": "!items!uOLiayLidSu5d0uJ"
+}

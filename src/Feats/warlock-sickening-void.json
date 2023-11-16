@@ -1,0 +1,46 @@
+{
+  "name": "Sickening Void",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Creatures who take void damage from one of your invocations also gain @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-sickening-void",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "wKKtuNv3ptwPrYvU",
+  "img": "icons/magic/acid/pouring-gas-smoke-liquid.webp",
+  "_key": "!items!wKKtuNv3ptwPrYvU"
+}

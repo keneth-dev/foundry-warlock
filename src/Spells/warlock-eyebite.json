@@ -1,0 +1,74 @@
+{
+  "name": "Eyebite",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>For the spell's duration, your eyes become an inky void imbued with dread power. Target a creature within 60 feet with a gaze attack. They must make a Will saving throw or suffer one of the following effects for one minute: @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}. You can perform a new gaze attack each round as part of the Sustain action.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eyebite",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "visual"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "SlK14GcAd4MelRcg",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "_key": "!items!SlK14GcAd4MelRcg"
+}

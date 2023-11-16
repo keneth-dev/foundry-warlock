@@ -1,0 +1,54 @@
+{
+  "name": "Spell Effect: Movement Penalty",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-spells.Item.mxOhbzlKqGgn5r86]{Spirit Shroud}</p>\n<p>You take a −10-foot circumstance penalty to your Speeds from the swarming souls until you leave the area.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "value": "-10",
+        "type": "circumstance"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-spirit-shroud-movement-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "jSpiHx6tRwt5I8nE",
+  "img": "icons/creatures/magical/spirit-mischief-fire-ice-blue.webp",
+  "_key": "!items!jSpiHx6tRwt5I8nE"
+}

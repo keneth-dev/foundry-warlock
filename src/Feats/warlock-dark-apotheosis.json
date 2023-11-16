@@ -1,0 +1,46 @@
+{
+  "name": "Dark Apotheosis",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your ability to invoke your patron's magic reaches beyond the realm of mortals. You gain an additional 10th-rank invocation that you can cast once per day.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-dark-apotheosis",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "inYBtAXvPYvH4jPz",
+  "img": "icons/magic/unholy/hand-marked-pink.webp",
+  "_key": "!items!inYBtAXvPYvH4jPz"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Fell Flight",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The powers of darkness bear you aloft as you sprout a streaming, winglike cape of shadows. You gain a fly Speed equal to your Speed.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "@actor.attributes.speed.total"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-fell-flight",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "wQyX1Rtf4BFKlj9X",
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "_key": "!items!wQyX1Rtf4BFKlj9X"
+}

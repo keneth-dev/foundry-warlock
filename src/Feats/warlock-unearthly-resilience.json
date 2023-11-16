@@ -1,0 +1,69 @@
+{
+  "name": "Unearthly Resilience",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your patron grants you the gift of resilience. You gain fast healing 1 while you are focused. The fast healing increases to 2 at 12th level and again to 3 at level 18.</p>"
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 11,
+              "value": 1
+            },
+            {
+              "start": 12,
+              "end": 17,
+              "value": 2
+            },
+            {
+              "start": 17,
+              "value": 3
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-unearthly-resilience",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "tTt11ryRfigAaKHj",
+  "img": "icons/magic/life/heart-shadow-red.webp",
+  "_key": "!items!tTt11ryRfigAaKHj"
+}

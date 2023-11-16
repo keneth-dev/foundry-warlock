@@ -1,0 +1,46 @@
+{
+  "name": "Shadow Gate",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn the @UUID[Compendium.pf2e.spells-srd.Item.5ZW1w9f4gWlSIuWA]{Teleportation Circle} ritual, allowing you to create a gateway between two distant points in space. Unlike the normal teleportation circle, a shadow gate makes use of the Shadow Plane to transport creatures from one end to the other and has the shadow trait.</p>\n<p>If the result of the ritual is a <strong>Critical Failure</strong>, the circle becomes a <em>failed shadow gate</em> which transports any creature that enters to a random location in the Netherworld and inflicts them with 2d6 points of void damage per rank of the ritual. If the creature is reduced to 0 HP from this damage, they are instantly transformed into @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK]{Shadows} upon their arrival.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-shadow-gate",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "hbwiD4Bk6rGEP6pF",
+  "img": "icons/skills/movement/ball-spinning-blue.webp",
+  "_key": "!items!hbwiD4Bk6rGEP6pF"
+}

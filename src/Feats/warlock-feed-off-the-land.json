@@ -1,0 +1,46 @@
+{
+  "name": "Feed Off the Land",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>So long as you have access to fresh soil, you can drain nutrients from it by touching the ground for at least 10 minutes. Doing so amounts to a day's worth of food. You still need to drink water normally.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-feed-off-the-land",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/magic/nature/tree-spirit-glow-black-yellow.webp",
+  "_id": "bIiAv5vq0pZCZwEn",
+  "_key": "!items!bIiAv5vq0pZCZwEn"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Spiderwalk",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Tiny clinging hairs sprout across your hands and feet, offering purchase on nearly any surface. You gain a climb Speed equal to your Speed. You are no longer affected by webs (either mundane or magical).</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": "@actor.attributes.speed.total"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-spiderwalk",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/creatures/invertebrates/bug-sixlegged-gray.webp",
+  "_id": "zmLJkHDYwW0Xiw4d",
+  "_key": "!items!zmLJkHDYwW0Xiw4d"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Hunger of Hadar",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You open a gateway to the dark between the stars, a region infested with unknown horrors. A sphere of blackness and bitter cold appears, centered on a point within range and lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within the area are @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}.</p>\n<p>The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes @Damage[2d6[cold]] damage. Any creature that ends its turn in the area must succeed on a Reflex saving throw or take 2d6 acid damage as milky, otherworldly tentacles rub against it.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The acid damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-hunger-of-hadar",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "cold",
+        "concentrate",
+        "warlock"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "150 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {
+        "rOmtGj8aBXlIINtj": {
+          "value": "2d6",
+          "type": {
+            "value": "acid",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "reflex",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "rOmtGj8aBXlIINtj": "1d6"
+      }
+    }
+  },
+  "_id": "32VzX2wVzRrDAsmR",
+  "img": "icons/magic/nature/root-vines-silhouette-teal.webp",
+  "_key": "!items!32VzX2wVzRrDAsmR"
+}

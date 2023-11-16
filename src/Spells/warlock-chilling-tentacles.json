@@ -1,0 +1,94 @@
+{
+  "name": "Chilling Tentacles",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You create an area of oily tentacles that functions as @UUID[Compendium.pf2e.spells-srd.Item.2w4OpAGihn1JSHFD]{Black Tentacles} except any creatures that end their turns within the area take 2d6 points of cold damage, regardless of whether or not they are grabbed by the tentacles.</p>\n<p><strong>Grabbed damage:</strong> @Damage[3d6[bludgeoning]]</p>\n<p><strong>Subsequent turns:</strong> @Damage[1d6[bludgeoning]]</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The cold damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-chilling-tentacles",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "1 minute"
+    },
+    "damage": {
+      "value": {
+        "NW8bmtj3tU0ZxkVZ": {
+          "value": "2d6",
+          "type": {
+            "value": "cold",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "NW8bmtj3tU0ZxkVZ": "1d6"
+      }
+    }
+  },
+  "_id": "76zBvPqNUTVLDyNY",
+  "img": "icons/magic/water/tendrils-ice-growth.webp",
+  "_key": "!items!76zBvPqNUTVLDyNY"
+}

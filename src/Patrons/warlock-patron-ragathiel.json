@@ -1,0 +1,58 @@
+{
+  "name": "Ragathiel",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>Ragathiel, the General of Vengeance, is an empyreal lord who takes an active role in the battle against Hell's fiendish legions. He shines at the head of his army, a figure of golden light cleaving through the ranks of devils that face him.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Divine</p>\n<p class=\"hang\"><strong>Skill</strong> Religion</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.B0FZLkoHsiRgw7gv]{Summon Lesser Servitor}, @UUID[Compendium.pf2e.spells-srd.Item.kRsmUlSWhi6PJvZ7]{Angelic Wings}, @UUID[Compendium.pf2e.spells-srd.Item.E3X2RbzWHCdz7gsk]{Flame Strike}</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.rel.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-ragathiel",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "fire",
+        "good",
+        "angel",
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "0uocq5TLeZSidruD",
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "_key": "!items!0uocq5TLeZSidruD"
+}

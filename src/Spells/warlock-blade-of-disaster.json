@@ -1,0 +1,85 @@
+{
+  "name": "Blade of Disaster",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You create a blade-shaped planar rift about 3 feet long in one of your free hands. Strikes with the weapon are melee weapon attacks, but they use your spell attack modifier. On a hit, the target takes 8d12 points of force damage. On a critical hit, the blade deals double damage.</p>\n<p>The blade can cut through any barrier, ignoring its hardness, including a @UUID[Compendium.pf2e.spells-srd.Item.7Iela4GgVeO3LfAo]{Wall of Force}.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-blade-of-disaster",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 1 minute"
+    },
+    "damage": {
+      "value": {
+        "qRl0QqAfKtdvl3sv": {
+          "value": "8d12",
+          "type": {
+            "value": "force",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "yfFSby2kUFSvfoIH",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "_key": "!items!yfFSby2kUFSvfoIH"
+}

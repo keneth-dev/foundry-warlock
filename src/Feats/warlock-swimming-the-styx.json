@@ -1,0 +1,52 @@
+{
+  "name": "Swimming the Styx",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your hands and feet become slightly webbed. You gain a swim Speed equal to your Speed and the ability to breathe water as well as air.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": "@actor.attributes.speed.total"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-swimming-the-styx",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/commodities/biological/wing-lizard-purple.webp",
+  "_id": "d3Q7C1ShVtkZ7CUj",
+  "_key": "!items!d3Q7C1ShVtkZ7CUj"
+}

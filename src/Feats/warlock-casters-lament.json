@@ -1,0 +1,46 @@
+{
+  "name": "Caster's Lament",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Trigger</strong> A creature Casts a Spell in your line of sight.</p>\n<p class=\"hang\"><strong>Requirements</strong> You have at least 1 remaining Focus Point in your focus pool.</p>\n<hr />\n<p>You can attempt to counteract the triggering spell by expending 1 Focus Point. You take a −2 penalty to your counteract check unless you know an invocation of the same name as the triggering spell.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-casters-lament",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "mSugKLlJkIXky1Eb",
+  "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
+  "_key": "!items!mSugKLlJkIXky1Eb"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Devour Magic",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Whenever you successfully counteract a magic effect or suppress an item, you regain hit points equal to the level of that effect or item.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-devour-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "P2DQjj9y2Tv9iPIc",
+  "img": "icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp",
+  "_key": "!items!P2DQjj9y2Tv9iPIc"
+}

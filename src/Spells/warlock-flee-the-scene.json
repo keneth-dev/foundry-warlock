@@ -1,0 +1,75 @@
+{
+  "name": "Flee the Scene",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>As @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate} except the range is 60 feet and you don't need to be able to see your destination. You leave behind an @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature} that looks and acts like you and lasts for 1 round. The illusion does not perform any actions.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-flee-the-scene",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "illusion",
+        "teleportation"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "ZU8JgCCLXm0KuLVf",
+  "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+  "_key": "!items!ZU8JgCCLXm0KuLVf"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Gift of the Undying One",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Any effect that would heal an undead creature also heals you. You can still be healed normally.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-gift-of-the-undying-one",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "patron with undead trait"
+        }
+      ]
+    }
+  },
+  "_id": "CewPfU8AhzjcSmWj",
+  "img": "icons/skills/wounds/blood-cells-disease-green.webp",
+  "_key": "!items!CewPfU8AhzjcSmWj"
+}

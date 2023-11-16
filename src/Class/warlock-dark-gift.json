@@ -1,0 +1,46 @@
+{
+  "name": "Dark Gift",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your proficiency with your patron's magic has reached its apex. You can select a single 10th-rank invocation from the warlock invocation list. You can cast this invocation once per day.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-dark-gift",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
+  "_id": "7Tn98fd9qoYtSoff",
+  "_key": "!items!7Tn98fd9qoYtSoff"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Endure the Pyre",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You gain remarkable resilience to any one energy type. Choose acid, cold, electricity, fire, or sonic damage. You and your gear gain resistance 10 against the chosen damage type.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.tEbUvLkY0XW7s2Zv]{Spell Effect: Endure the Pyre}</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The resistance increases by 5.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-endure-the-pyre",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "ylj9AM1Tn2UmQz1t",
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+  "_key": "!items!ylj9AM1Tn2UmQz1t"
+}

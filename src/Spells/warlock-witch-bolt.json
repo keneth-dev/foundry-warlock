@@ -1,0 +1,92 @@
+{
+  "name": "Witch Bolt",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p>A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of electricity between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d12 points of electricity damage. Each round you sustain the spell thereafter, you deal an additional @Damage[1d12[electricity]] damage to the target. The spell ends if the target is ever outside the spell's range or if you lose the line of effect.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The initial damage increases by 1d12.</p>\n</div>\n</div>\n</div>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-witch-bolt",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "electricity",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "fyNxftY1EBPKwMPg": {
+          "value": "1d12",
+          "type": {
+            "value": "electricity",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "fyNxftY1EBPKwMPg": "1d12"
+      }
+    }
+  },
+  "_id": "cnJNE3cZ9lSgO7YS",
+  "img": "icons/magic/lightning/bolt-strike-embers-teal.webp",
+  "_key": "!items!cnJNE3cZ9lSgO7YS"
+}

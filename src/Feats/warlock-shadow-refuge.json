@@ -1,0 +1,46 @@
+{
+  "name": "Shadow Refuge",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn the @UUID[Compendium.pf2e.spells-srd.Item.ZwwIUavMbEwcZz35]{Create Demiplane} ritual, gaining the ability to create your own world. Unlike the standard ritual, this version creates a new demiplane on the plane of shadow and automatically gains the shadow trait, which cannot be removed. Any ecosystem created on the plane is automatically adapted to this environment, with creatures usually gaining the shadow trait and darkvision.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-shadow-refuge",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "HrSKRee79I74rQw7",
+  "img": "icons/environment/settlement/city-night-spire.webp",
+  "_key": "!items!HrSKRee79I74rQw7"
+}

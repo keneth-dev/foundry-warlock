@@ -1,0 +1,46 @@
+{
+  "name": "Mask of Many Faces",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can cast @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise} on yourself at will, without expending a Focus Point.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-mask-of-many-faces",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/equipment/head/mask-carved-gargoyle-grey.webp",
+  "_id": "48kIodm3maYdLtCl",
+  "_key": "!items!48kIodm3maYdLtCl"
+}

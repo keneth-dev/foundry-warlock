@@ -1,0 +1,47 @@
+{
+  "name": "Spell Effect: Cold Comfort",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>You are no longer affected by severe cold or heat.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-cold-comfort-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "IMi2lK6ajzZlQCZX",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "_key": "!items!IMi2lK6ajzZlQCZX"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Spell Effect: Nightmares Made Real",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-spells.Item.19OpTaHEn1WoqVap]{Nightmares Made Real}</p>\n<p>You take @Damage[2d6[mental]] damage and a −10-foot circumstance penalty to your Speeds each round until you leave the area.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "value": "-10",
+        "type": "circumstance"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-nightmares-made-real-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "QLdX8gH4HgfJeebG",
+  "img": "icons/magic/death/gallows-hanged-humanoid.webp",
+  "_key": "!items!QLdX8gH4HgfJeebG"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Word of Unravelling",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can unravel the power imbued within magical items. You learn <em>disjunction</em> as a focus spell.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-word-of-unravelling",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "nzN2wMnWNNCnx4lO",
+  "img": "systems/pf2e/icons/spells/disjunction.webp",
+  "_key": "!items!nzN2wMnWNNCnx4lO"
+}

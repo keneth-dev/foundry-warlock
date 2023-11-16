@@ -1,0 +1,86 @@
+{
+  "name": "Devil's Whispers",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>As @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} except the target must attempt a second Will saving throw at the end of the duration with a −2 penalty. If this second save fails, the subject completely forgets who made the suggestion, instead becoming convinced that it was their own idea—even if they are not certain why they might have chosen to perform such an action.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-devils-whispers",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock",
+        "incapacitation",
+        "linguistic",
+        "mental"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "varies"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "fixed",
+      "levels": {
+        "8": {
+          "target": {
+            "value": "10 creatures"
+          }
+        }
+      }
+    }
+  },
+  "_id": "rtJdq9iZAQlLLgMZ",
+  "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+  "_key": "!items!rtJdq9iZAQlLLgMZ"
+}

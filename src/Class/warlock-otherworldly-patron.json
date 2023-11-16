@@ -1,0 +1,62 @@
+{
+  "name": "Otherworldly Patron",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You weren't born with the power to cast spells, nor have you spent years in devotion to tomes, deities, or mystical secrets. Your power comes through a potent being that you have chosen to represent in this world.</p>\n<p>A patron might be a deity or demigod, a coven of powerful hags, a fey lord, an archdevil, or a similarly powerful entity, or perhaps multiple such figures working in tandem. As you gain more of your patron's power, you might learn more about their motivations, but patrons empower warlocks for their own secretive reasons, which they rarely reveal in full.</p>\n<p>At 1st level, choose a patron which determines your spellcasting tradition, a skill, and a list of invocations that you may cast once you reach the required rank.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:warlock-patron"
+          ]
+        },
+        "flag": "patron",
+        "key": "ChoiceSet",
+        "prompt": "Select a Patron"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.patron}"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+  "_id": "e17tW3y9jKkfNxl7",
+  "_key": "!items!e17tW3y9jKkfNxl7"
+}

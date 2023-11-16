@@ -1,0 +1,50 @@
+{
+  "name": "Utterdark Blast",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your next <em>eldritch blast</em> deals void damage, rather than force, and any creatures damaged by it also gain @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-utterdark-blast",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "death",
+        "warlock",
+        "manipulate",
+        "metamagic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "qweZ6OZ7zOXJhxjk",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "_key": "!items!qweZ6OZ7zOXJhxjk"
+}

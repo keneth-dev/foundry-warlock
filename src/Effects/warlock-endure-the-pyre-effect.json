@@ -1,0 +1,99 @@
+{
+  "name": "Spell Effect: Endure the Pyre",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-spell.Item.ylj9AM1Tn2UmQz1t]{Endure the Pyre}</p>\n<p>You gain remarkable resilience to any one energy type. Choose acid, cold, electricity, fire, or sonic damage. You and your gear gain resistance 10 against the chosen damage type.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The resistance increases by 5.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Select First Energy Type",
+        "flag": "energyType",
+        "priority": 99
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.energyType}",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 6,
+              "value": 10
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "value": 15
+            },
+            {
+              "start": 9,
+              "value": 20
+            }
+          ],
+          "field": "item|system.level.value"
+        }
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-endure-the-pyre-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 1,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "tEbUvLkY0XW7s2Zv",
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+  "_key": "!items!tEbUvLkY0XW7s2Zv"
+}

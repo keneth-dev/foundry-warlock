@@ -1,0 +1,62 @@
+{
+  "name": "Serpent's Tongue",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain a forked tongue, like that of a serpent, granting you the scent (imprecise) ability, with a range of 30 feet. You also gain a +2 status bonus to saves vs. poison.</p>"
+    },
+    "rules": [
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "value": 2,
+        "type": "status",
+        "predicate": [
+          "poison"
+        ]
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-serpents-tongue",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "hj2zzaIYxSFlyhyj",
+  "img": "icons/creatures/reptiles/serpent-horned-green.webp",
+  "_key": "!items!hj2zzaIYxSFlyhyj"
+}

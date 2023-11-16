@@ -1,0 +1,50 @@
+{
+  "name": "Burning Hex",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can have the target of your <em>warlock's hex</em> take fire damage instead of void damage. You must select the type of damage when you cast the spell.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-burning-hex",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "patron with fire trait"
+        }
+      ]
+    }
+  },
+  "_id": "LyXOdSUckGhgOLoT",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+  "_key": "!items!LyXOdSUckGhgOLoT"
+}

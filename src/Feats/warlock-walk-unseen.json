@@ -1,0 +1,46 @@
+{
+  "name": "Walk Unseen",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain the ability to fade from view. You can cast @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} on yourself at will, without expending a Focus Point.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-walk-unseen",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "Kr68Ls8S2cQ2XNt6",
+  "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+  "_key": "!items!Kr68Ls8S2cQ2XNt6"
+}

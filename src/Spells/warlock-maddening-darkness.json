@@ -1,0 +1,89 @@
+{
+  "name": "Maddening Darkness",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Magical darkness spreads from a point you choose within range to fill a 60-foot-radius sphere until the spell ends. Creatures without greater darkvision can't see through this darkness. Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature other than you starts its turn in the area, it must make a basic Will saving throw or take 8d8 points of mental damage.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-maddening-darkness",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "darkness",
+        "warlock",
+        "mental"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "150 feet"
+    },
+    "area": {
+      "value": 60,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained up to 10 minutes"
+    },
+    "damage": {
+      "value": {
+        "VA8ryanROVVKRNWt": {
+          "value": "8d8",
+          "type": {
+            "value": "mental",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "will",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "L7rLnMShAkHafons",
+  "img": "icons/magic/nature/tree-spirit-black.webp",
+  "_key": "!items!L7rLnMShAkHafons"
+}

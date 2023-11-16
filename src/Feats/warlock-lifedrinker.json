@@ -1,0 +1,53 @@
+{
+  "name": "Lifedrinker",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you hit a creature with a melee weapon, the creature takes extra void damage equal to your Charisma modifier.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "melee-damage",
+        "value": "@actor.abilities.cha.mod",
+        "damageType": "void"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-lifedrinker",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "CYAAwNDkQmCVCwOi",
+  "img": "icons/skills/melee/strike-sword-blood-red.webp",
+  "_key": "!items!CYAAwNDkQmCVCwOi"
+}

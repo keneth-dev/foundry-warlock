@@ -1,0 +1,48 @@
+{
+  "name": "Hungry Darkness",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Whenever you create an area of darkness, such as with the @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} invocation, you can choose to fill it with ravenous shadows. Creatures other than you who end their turn inside the area take @Damage[2d6[void]] <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">damage.</span></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-hungry-darkness",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "darkness",
+        "warlock",
+        "shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "ySKxPCDee3Kd10hK",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
+  "_key": "!items!ySKxPCDee3Kd10hK"
+}

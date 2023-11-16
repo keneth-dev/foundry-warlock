@@ -1,0 +1,93 @@
+{
+  "name": "Utterdark Blast",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Your next <em>eldritch blast</em> deals void damage, rather than force, and any creatures damaged by it also gain @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-utterdark-blast-spell",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "death",
+        "warlock",
+        "void"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 or more creatures"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "NVMccqzjTaJykZrG": {
+          "value": "1d10",
+          "type": {
+            "value": "void",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "NVMccqzjTaJykZrG": "1d10"
+      }
+    }
+  },
+  "_id": "Z8iaNIVMp4yB15W2",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "_key": "!items!Z8iaNIVMp4yB15W2"
+}

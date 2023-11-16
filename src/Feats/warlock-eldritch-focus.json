@@ -1,0 +1,46 @@
+{
+  "name": "Eldritch Focus",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Whenever you @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{Refocus}, completely refill your focus pool.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-focus",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "eo4pxkjGGQvvUJzO",
+  "img": "icons/magic/unholy/orb-hands-pink.webp",
+  "_key": "!items!eo4pxkjGGQvvUJzO"
+}

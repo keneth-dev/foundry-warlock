@@ -1,0 +1,74 @@
+{
+  "name": "Steal Summoning",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Trigger</strong> a creature is successfully summoned</p>\n<hr />\n<p>With an act of will and the utterance of arcane syllables, you steal the nascent connection being formed between summoner and minion. You steal control of a creature as it is being summoned, as if you</p>\n</div>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p>had summoned it yourself. The summoning spell must be of 5th-rank or lower. You can sustain the spell for as long as the original spell allows.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+1)</strong> The maximum rank of the stolen summon spell increases by 1.</p>\n</div>\n</div>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-steal-summoning",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": "1 summoned creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "reaction"
+    },
+    "duration": {
+      "sustained": true,
+      "value": "sustained as per originating spell"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "HyNoJ5C3z9umGgxM",
+  "img": "icons/magic/lightning/claws-unarmed-strike-teal.webp",
+  "_key": "!items!HyNoJ5C3z9umGgxM"
+}

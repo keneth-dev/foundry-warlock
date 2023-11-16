@@ -1,0 +1,43 @@
+{
+  "name": "Fade into the Light",
+  "type": "action",
+  "system": {
+    "description": {
+      "value": "<p><strong>Trigger</strong> You begin your turn in bright light.</p>\n<hr />\n<p>You become @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">until you are no longer in bright light. If the you use a hostile action, the invisibility ends after that hostile action is completed.</span></p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-fade-into-the-light",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "illusion"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "_id": "f6MUTylCKb0s37dJ",
+  "img": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
+  "_key": "!items!f6MUTylCKb0s37dJ"
+}

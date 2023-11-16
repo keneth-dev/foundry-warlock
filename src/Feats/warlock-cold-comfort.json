@@ -1,0 +1,64 @@
+{
+  "name": "Cold Comfort",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You are no longer affected by severe cold or heat. In addition, any ally within 30 feet of you can take comfort in your indifference, gaining the same benefits.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 30,
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.IMi2lK6ajzZlQCZX",
+            "affects": "allies"
+          }
+        ],
+        "slug": "cold-comfort",
+        "appearance": {
+          "border": null,
+          "highlight": {
+            "alpha": 0
+          }
+        }
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-cold-comfort",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "1tledTMmvt2ARo8t",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "_key": "!items!1tledTMmvt2ARo8t"
+}

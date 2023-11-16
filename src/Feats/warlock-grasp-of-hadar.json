@@ -1,0 +1,48 @@
+{
+  "name": "Grasp of Hadar",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you hit a creature with your <em>eldritch blast</em>, you can move that creature in a straight line 10 feet closer to yourself.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-grasp-of-hadar",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "metamagic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/magic/unholy/hand-grasping-green.webp",
+  "_id": "yro524l0MoO8B16F",
+  "_key": "!items!yro524l0MoO8B16F"
+}

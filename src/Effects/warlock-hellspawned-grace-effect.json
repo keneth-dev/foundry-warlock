@@ -1,0 +1,129 @@
+{
+  "name": "Spell Effect: Hellspawned Grace",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-feats.Item.9bdyqKlEqydYl8W5]{Hellspawned Grace}</p>\n<p>You channel the power of Hell to transform into a hellcat battle form.</p>"
+    },
+    "rules": [
+      {
+        "key": "BattleForm",
+        "overrides": {
+          "armorClass": {
+            "modifier": "22 + @actor.level"
+          },
+          "resistances": [
+            {
+              "type": "physical",
+              "value": 5,
+              "exceptions": [
+                "silver"
+              ]
+            },
+            {
+              "type": "fire",
+              "value": 10
+            }
+          ],
+          "weaknesses": [
+            {
+              "type": "spirit",
+              "value": 5
+            }
+          ],
+          "senses": {
+            "darkvision": {}
+          },
+          "size": "lg",
+          "skills": {
+            "ath": {
+              "modifier": 23
+            }
+          },
+          "speeds": {
+            "land": 35
+          },
+          "strikes": {
+            "jaws": {
+              "ability": "str",
+              "category": "unarmed",
+              "damage": {
+                "damageType": "piercing",
+                "dice": 2,
+                "die": "d12",
+                "modifier": 10
+              },
+              "baseType": "jaws",
+              "modifier": 20,
+              "traits": [
+                "unarmed"
+              ]
+            },
+            "claw": {
+              "ability": "str",
+              "category": "unarmed",
+              "damage": {
+                "damageType": "slashing",
+                "dice": 2,
+                "die": "d8",
+                "modifier": 10
+              },
+              "baseType": "claw",
+              "modifier": 20,
+              "traits": [
+                "unarmed",
+                "agile"
+              ]
+            }
+          },
+          "traits": [
+            "evil",
+            "beast"
+          ]
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlock.warlock-abilities.Item.f6MUTylCKb0s37dJ",
+        "allowDuplicate": false
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-hellspawned-grace-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "5k46iDq8grinyqoA",
+  "img": "icons/magic/control/fear-fright-monster-red.webp",
+  "_key": "!items!5k46iDq8grinyqoA"
+}

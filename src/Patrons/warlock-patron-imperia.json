@@ -1,0 +1,58 @@
+{
+  "name": "Imperia",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<div class=\"content\" data-markdown=\"1\">\n<p><em>Lady Imperia Leonis, the Queen of Imps, was a minor noble of Cheliax prior to her death. After faling prey to a vampire, she destroyed her maker and even regained her soul from the clutches of Hell, becoming a unique being of unimaginable power.</em></p>\n</div>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Tradition</strong> Occult</p>\n<p class=\"hang\"><strong>Skill</strong> Society</p>\n<p class=\"hang\"><strong>Invocations</strong> @UUID[Compendium.pf2e.spells-srd.Item.cE7PRAX8Up7fmYef]{Shroud of Night}, @UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]{Vampiric Feast}, @UUID[Compendium.pf2e.spells-srd.Item.fd31tAHSSGXyOxW6]{Vampiric Exsanguination}</p>\n</div>\n</div>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.soc.rank",
+        "value": 1
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-patron-imperia",
+    "traits": {
+      "otherTags": [
+        "warlock-patron"
+      ],
+      "value": [
+        "evil",
+        "devil",
+        "undead",
+        "occult"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "_id": "MMh193JK3p3yO6TO",
+  "img": "icons/magic/control/control-influence-crown-gold.webp",
+  "_key": "!items!MMh193JK3p3yO6TO"
+}

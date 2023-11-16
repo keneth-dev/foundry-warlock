@@ -1,0 +1,51 @@
+{
+  "name": "Devil's Sight",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can see normally in darkness, both magical and mundane. You gain @UUID[Compendium.pf2e.ancestryfeatures.Item.vPhPgzpRjYDMT9Kq]{Greater Darkvision}.</p>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "greaterDarkvision"
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-devils-sight",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "_id": "3ZRrbitUHouJwbrb",
+  "_key": "!items!3ZRrbitUHouJwbrb"
+}

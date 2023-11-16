@@ -1,0 +1,94 @@
+{
+  "name": "Eldritch Doom",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Your next @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} explodes into a 20-foot emanation around you. Creatures caught in the area must succeed on a basic Reflex saving throw or take your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} damage.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-doom-spell",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "force",
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 20,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {
+        "ppUUg8Yi2KhFZOzl": {
+          "value": "1d10",
+          "type": {
+            "value": "force",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "save": {
+      "value": "reflex",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "ppUUg8Yi2KhFZOzl": "1d10"
+      }
+    }
+  },
+  "_id": "3LYDcjnFn7LCdFiU",
+  "img": "icons/magic/fire/explosion-fireball-medium-purple-pink.webp",
+  "_key": "!items!3LYDcjnFn7LCdFiU"
+}

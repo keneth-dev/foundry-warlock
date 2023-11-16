@@ -1,0 +1,73 @@
+{
+  "name": "Crawling Eye",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>One of your eyes leaves your head and sprouts spidery legs. You can see through the eye no matter where it goes, so you can use it to scout or spy. The eye has the minion trait and a climb Speed of 20 feet. The eye is considered a tiny creature with AC 24 and 25 HP. Its Stealth bonus is +20. If your crawling eye is sharing a space with you, you can Dismiss the spell. </p>\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p>You can't cast most invocations or spells through the eye, but any effects that affect your sense of sight function through the eye as though it was still attached.</p>\n<p>If your crawling eye is destroyed, you are dazzled for 2 hours, during which time the eye regrows. (If you normally have only one eye, you are blinded instead). Only one of your eyes can be used for <em>crawling eye</em> at any time.</p>\n</div>\n</div>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-crawling-eye",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour"
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "TskmRJQb9IRx1vuv",
+  "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+  "_key": "!items!TskmRJQb9IRx1vuv"
+}

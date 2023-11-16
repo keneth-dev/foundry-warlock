@@ -1,0 +1,46 @@
+{
+  "name": "Eldritch Sight",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn the @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} and @UUID[Compendium.pf2e.spells-srd.Item.OhD2Z6rIGGD5ocZA]{Read Aura} cantrips.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-eldritch-sight",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/magic/perception/eye-slit-pink.webp",
+  "_id": "lrQ0jNQ49v1cJvgi",
+  "_key": "!items!lrQ0jNQ49v1cJvgi"
+}

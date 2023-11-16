@@ -1,0 +1,48 @@
+{
+  "name": "Quick Armoring",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can touch an unattended suit of armor and instantly don it, provided you aren't wearing armor already. Any suit of armor donned in this manner can also be removed with the same action.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-quick-armoring",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlock",
+        "manipulate"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    }
+  },
+  "img": "icons/equipment/chest/breastplate-layered-leather-black.webp",
+  "_id": "qUc4r4B9cE6O79NW",
+  "_key": "!items!qUc4r4B9cE6O79NW"
+}

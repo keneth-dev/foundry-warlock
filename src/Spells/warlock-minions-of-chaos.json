@@ -1,0 +1,73 @@
+{
+  "name": "Minions of Chaos",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You conjure 2 scamps from an elemental plane of your choice. You cannot control the scamps, though their initial attitude toward you is friendly. You can try to convince them to assist you or allow them to run free for the duration of the spell.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (5th)</strong> You summon [[/roll 1d4+1]] scamps instead.</p>\n<p class=\"hang\"><strong>Heightened (8th)</strong> You summon [[/roll 2d4+1]] scamps instead.</p>"
+    },
+    "rules": [],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-minions-of-chaos",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "materials": {
+      "value": ""
+    },
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": ""
+    },
+    "damage": {
+      "value": {}
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "cost": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "_id": "8ezsDu4zvI4dnXxo",
+  "img": "icons/magic/water/barrier-ice-water-cube.webp",
+  "_key": "!items!8ezsDu4zvI4dnXxo"
+}

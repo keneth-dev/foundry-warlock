@@ -1,0 +1,58 @@
+{
+  "name": "Spell Effect: Hideous Blow",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-feats.Item.3ni03IglqWjVM30a]{Hideous Blow}</p>\n<p>Channel your next <em>eldritch blast</em> into a held melee weapon (or natural attack), performing melee strikes that deal both normal weapon damage and <em>eldritch blast</em> damage. As with <em>eldritch blast</em>, you only increase the multiple attack penalty after all the attack rolls have been made.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "ceil(@actor.level/2)",
+        "dieSize": "d10",
+        "damageType": "force",
+        "predicate": [
+          "melee"
+        ]
+      }
+    ],
+    "_migration": {
+      "version": 0.88,
+      "lastMigration": null
+    },
+    "slug": "warlock-hideous-blow-effect",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "ds9ppCaDlhDRi3M7",
+  "img": "icons/skills/melee/blade-tip-energy-green.webp",
+  "_key": "!items!ds9ppCaDlhDRi3M7"
+}
