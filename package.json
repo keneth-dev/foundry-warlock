@@ -1,6 +1,6 @@
 {
   "name": "pf2e-warlock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PF2e Warlock for FoundryVTT",
   "main": "index.js",
   "scripts": {
