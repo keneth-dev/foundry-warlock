@@ -3,7 +3,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a <em>brimstone blast</em>. A <em>brimstone blast</em> deals fire damage, gains the fire trait, and any creature struck by the blast must make a Reflex saving throw or take an additional 2d6 points of persistent fire damage.</p>"
+      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a <em>brimstone blast</em>. A <em>brimstone blast</em> deals fire damage, gains the fire trait, and any creature struck by the blast must make a Reflex saving throw or take an additional 1d6 points of persistent fire damage per spell rank (instead of double damage).</p>"
     },
     "rules": [],
     "_migration": {
@@ -17,7 +17,7 @@
         "concentrate",
         "fire",
         "warlock",
-        "metamagic"
+        "spellshape"
       ],
       "rarity": "common"
     },

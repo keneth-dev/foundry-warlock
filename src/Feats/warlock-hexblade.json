@@ -1,0 +1,54 @@
+{
+  "name": "Hexblade",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you score a critical hit with one of your weapons, you can immediately apply a @UUID[Compendium.pf2e-warlock.warlock-spells.Item.moDOkmLX9b6Lk3ED]{Warlock's Hex} on your target without expending a focus point. If you already have an active @UUID[Compendium.pf2e-warlock.warlock-spells.Item.moDOkmLX9b6Lk3ED]{Warlock's Hex} and you use the reaction, it is replaced by this one.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-hexblade",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Eldritch Glaive Dedication"
+        },
+        {
+          "value": "warlock's hex"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "_id": "beV15lorsFfQ4Y4e",
+  "_key": "!items!beV15lorsFfQ4Y4e"
+}

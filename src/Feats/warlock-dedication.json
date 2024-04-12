@@ -1,0 +1,69 @@
+{
+  "name": "Warlock Dedication",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You cast invocations like a warlock. Choose a patron; you learn <em>@UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast}</em>, which is a cantrip from your chosen patron's tradition. You gain the Cast a Spell activity. You're trained in spell attack modifier and spell DC. Your key spellcasting ability for invocations is Charisma, and all invocations are spells of your patron's tradition. You become trained in the skill associated with your patron; if you were already trained in it, you instead become trained in a skill of your choice. You do not gain any other benefits otherwise granted by your chosen patron.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the warlock archetype.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlock.warlock-class.Item.e17tW3y9jKkfNxl7"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz"
+      }
+    ],
+    "slug": "warlock-dedication",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Charisma +2"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 1
+        }
+      }
+    }
+  },
+  "img": "modules/pf2e-warlock/icons/warlock-class.webp",
+  "_id": "cPoWXbREvOfvsoy4",
+  "_key": "!items!cPoWXbREvOfvsoy4"
+}

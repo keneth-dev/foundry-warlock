@@ -1,0 +1,53 @@
+{
+  "name": "Spell Effect: Blade Ward",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-warlock.warlock-feats.Item.q3TIUFDLhB7yXIMH]{Blade Ward}</p>\n<p>You gain resistance 5 to all physical damage for 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "value": 5,
+        "type": "physical"
+      }
+    ],
+    "slug": "warlock-blade-ward-effect",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/skills/melee/sword-damaged-broken-orange.webp",
+  "_id": "kMNVNvXwyfLyvrnA",
+  "_key": "!items!kMNVNvXwyfLyvrnA"
+}

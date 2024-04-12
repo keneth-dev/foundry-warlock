@@ -1,0 +1,51 @@
+{
+  "name": "Far Scribe",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>A new page appears in your grimoire. With your permission, a creature may write its name on that page, which can contain a number of names equal to half your level rounded up. You can magically erase a name as an interact action.<br />    You can cast the <em>@UUID[Compendium.pf2e.spells-srd.Item.R9xqCBblkS5KE4y7]{Sending}</em> spell as a focus cantrip, targeting a creature whose name is on the page. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-far-scribe",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Archivist Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/tools/scribal/ink-quill-red.webp",
+  "_id": "Z04N68VXcEKQpWwD",
+  "_key": "!items!Z04N68VXcEKQpWwD"
+}

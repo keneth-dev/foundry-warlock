@@ -1,0 +1,57 @@
+{
+  "name": "Spell Effect: Absolute Resolve",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-warlock.warlock-feats.Item.txsffXLnly0vxKIp]{Absolute Resolve}</p>\n<p>You conjure a powerful ward to protect yourself from mental magic. You gain a +4 status bonus to saves against mental effects for 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 4,
+        "type": "status",
+        "predicate": [
+          "mental"
+        ]
+      }
+    ],
+    "slug": "warlock-absolute-resolve-effect",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "_id": "x7zhSTpsc5x4oSy6",
+  "_key": "!items!x7zhSTpsc5x4oSy6"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Advanced Pact Boon",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain one warlock feat. For the purpose of meeting its prerequisites, your warlock level is equal to half your character level.<br />    <strong>Special</strong> You can select this feat more than once. Each time you select it, you gain another warlock feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.advancedPactBoon.level",
+        "value": "floor(@actor.level/2)"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:warlock",
+            {
+              "lte": [
+                "item:level",
+                "{actor|flags.pf2e.advancedPactBoon.level}"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "advancedPactBoon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.advancedPactBoon}"
+      }
+    ],
+    "slug": "warlock-advanced-pact-boon",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Pact Boon"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/scrolls/scroll-bound-sealed-red-green.webp",
+  "_id": "Hv6oAADqFWvhgqJ6",
+  "_key": "!items!Hv6oAADqFWvhgqJ6"
+}

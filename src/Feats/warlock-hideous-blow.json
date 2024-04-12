@@ -3,7 +3,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>Channel your next <em>eldritch blast</em> into a held melee weapon (or natural attack), performing melee strikes that deal both normal weapon damage and <em>eldritch blast</em> damage. As with <em>eldritch blast</em>, you only increase the multiple attack penalty after all the attack rolls have been made.</p>"
+      "value": "<p>Channel your next <em>@UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast}</em> into a held melee weapon (or natural attack), performing melee strikes that deal both normal weapon damage and <em>@UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast}</em> damage.</p>"
     },
     "rules": [],
     "_migration": {
@@ -14,9 +14,9 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "archetype",
         "concentrate",
-        "warlock",
-        "metamagic"
+        "spellshape"
       ],
       "rarity": "common"
     },
@@ -27,7 +27,7 @@
       "remaster": false
     },
     "level": {
-      "value": 2
+      "value": 4
     },
     "category": "class",
     "onlyLevel1": false,
@@ -39,7 +39,11 @@
       "value": 1
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Eldritch Glaive Dedication"
+        }
+      ]
     },
     "selfEffect": {
       "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.ds9ppCaDlhDRi3M7",

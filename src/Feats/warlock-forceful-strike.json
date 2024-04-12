@@ -1,0 +1,61 @@
+{
+  "name": "Forceful Strike",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your conjured weapon gains the forceful trait, in addition to any other traits it might already have.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:slug:warlock-conjured-weapon-manifest"
+        ],
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "forceful"
+      }
+    ],
+    "slug": "warlock-forceful-strike",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Eldritch Glaive Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/skills/melee/strike-sword-dagger-runes-yellow.webp",
+  "_id": "gbbE312qrwgw3VPD",
+  "_key": "!items!gbbE312qrwgw3VPD"
+}

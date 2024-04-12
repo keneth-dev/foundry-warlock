@@ -1,0 +1,55 @@
+{
+  "name": "Absolute Resolve",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You conjure a powerful ward to protect yourself from mental magic. Spend a Focus Point to grant yourself a +4 status bonus to saves against mental effects for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.x7zhSTpsc5x4oSy6]{Spell Effect: Absolute Resolve}</p>"
+    },
+    "rules": [],
+    "slug": "warlock-absolute-resolve",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Disciple Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.x7zhSTpsc5x4oSy6",
+      "name": "Spell Effect: Absolute Resolve"
+    }
+  },
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "_id": "txsffXLnly0vxKIp",
+  "_key": "!items!txsffXLnly0vxKIp"
+}

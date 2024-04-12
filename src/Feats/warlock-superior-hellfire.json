@@ -1,0 +1,69 @@
+{
+    "name": "Superior Hellfire",
+    "type": "feat",
+    "system": {
+      "description": {
+        "value": "<p>You can increase the spirit damage of your @UUID[Compendium.pf2e-warlock.warlock-abilities.Item.FBSCoyJiciMRLmXx]{Hellfire Blast} by an additional @Damage[2d10[spirit]] damage, to a total of +@Damage[6d10[spirit]] damage. In exchange, you take another @Damage[1d10[spirit]] damage.</p>"
+      },
+      "rules": [
+        {
+          "key": "RollOption",
+          "domain": "all",
+          "option": "superior-hellfire",
+          "toggleable": true
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "add",
+          "path": "flags.pf2e.hellwalker.hellfire",
+          "value": 1,
+          "predicate": [
+            "superior-hellfire"
+          ],
+          "priority": 55
+        }
+      ],
+      "slug": "warlock-superior-hellfire",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "level": {
+        "value": 18
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Greater Hellfire"
+          }
+        ]
+      },
+      "location": null
+    },
+    "img": "icons/magic/fire/projectile-fireball-smoke-strong-orange.webp",
+    "_id": "cL1kyPkvsASxxeZe",
+    "_key": "!items!cL1kyPkvsASxxeZe"
+  }
+  

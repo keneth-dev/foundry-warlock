@@ -1,0 +1,50 @@
+{
+    "img": "icons/sundries/books/book-red-exclamation.webp",
+    "name": "Reach Spell",
+    "system": {
+      "description": {
+        "value": "<p>You can extend your spells' range. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</p>"
+      },
+      "rules": [],
+      "slug": "reach-spell",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null,
+        "previous": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "spellshape",
+          "warlock"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "Pathfinder Player Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      },
+      "level": {
+        "value": 1
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "action"
+      },
+      "actions": {
+        "value": 1
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "_id": "xFaYf81kimrsPt3E",
+    "_key": "!items!xFaYf81kimrsPt3E"
+  }
+  

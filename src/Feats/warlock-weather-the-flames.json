@@ -1,0 +1,64 @@
+{
+  "name": "Weather the Flames",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain fire resistance 5. This resistance stacks with any previous fire resistance you might have from this feat, but not any other sources of fire resistance.<br />    <strong>Special</strong> You can take this feat multiple times. Each time, your fire resistance increases by an additional 5.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.weatherTheFlames.featCount",
+        "value": 1
+      },
+      {
+        "key": "Resistance",
+        "mode": "add",
+        "type": "fire",
+        "value": "5 * @actor.flags.pf2e.weatherTheFlames.featCount"
+      }
+    ],
+    "slug": "warlock-weather-the-flames",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Hellwalker Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+  "_id": "tEx1aE8fdxSVJRLi",
+  "_key": "!items!tEx1aE8fdxSVJRLi"
+}

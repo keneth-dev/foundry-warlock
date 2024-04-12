@@ -1,0 +1,55 @@
+{
+    "name": "Archivist Dedication",
+    "type": "feat",
+    "system": {
+      "description": {
+        "value": "<p>Archivists seek out esoteric sources of magical lore, wherever those sources might be, securing those secrets for themselves and their patron. An archivist is granted a grimoire called <em>@UUID[Compendium.pf2e-warlock.warlock-class.Item.DuAvMPo3I97PHIu5]{Arcana Obscura}</em> by their patron. This grimoire holds two cantrips of their patron's tradition that are not found on the standard warlock's invocation list. By reading from the tome, an archivist can invoke any spell contained therein as though it was one of their own known invocations.<br />    If you lose the grimoire, you can perform an hour-long ceremony to receive a replacement, turning the old book into ash.<br />    <strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the archivist archetype.</p>"
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-warlock.warlock-class.Item.DuAvMPo3I97PHIu5"
+        }
+      ],
+      "slug": "warlock-archivist-dedication",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "archetype",
+          "class",
+          "dedication"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "level": {
+        "value": 1
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+    "_id": "U46QWpAZPZZOvbjD",
+    "_key": "!items!U46QWpAZPZZOvbjD"
+  }
+  

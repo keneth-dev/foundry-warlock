@@ -3,7 +3,7 @@
   "type": "effect",
   "system": {
     "description": {
-      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-spell.Item.ylj9AM1Tn2UmQz1t]{Endure the Pyre}</p>\n<p>You gain remarkable resilience to any one energy type. Choose acid, cold, electricity, fire, or sonic damage. You and your gear gain resistance 10 against the chosen damage type.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The resistance increases by 5.</p>"
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-warlock.warlock-spells.Item.ylj9AM1Tn2UmQz1t]{Endure the Pyre}</p>\n<p>You gain remarkable resilience to any one energy type. Choose acid, cold, electricity, fire, or sonic damage. You and your gear gain resistance 10 against the chosen damage type.</p>\n<hr />\n<p class=\"hang\"><strong>Heightened (+2)</strong> The resistance increases by 5.</p>"
     },
     "rules": [
       {

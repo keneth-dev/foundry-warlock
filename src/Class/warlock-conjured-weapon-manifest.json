@@ -1,0 +1,149 @@
+{
+  "name": "Conjured Weapon",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<p>Created by: @UUID[Compendium.pf2e-warlock.warlock-abilities.Item.f7qqR57Ug1QqKcxP]{Conjure Weapon}</p>\n<p>This is a sample Conjured Weapon manifested by the warlock.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "diceNumber": "ceil(@actor.level/2-1)",
+        "selector": "{item|id}-damage",
+        "label": "Heightened",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "{item|id}-attack",
+          "{item|id}-damage"
+        ],
+        "type": "ability",
+        "ability": "cha",
+        "force": true,
+        "predicate": [
+          "item:slug:warlock-conjured-weapon-manifest"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "override",
+        "value": "ceil(@actor.level/2)",
+        "selector": "{item|id}-damage",
+        "slug": "forceful-second"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "override",
+        "value": "@actor.level",
+        "selector": "{item|id}-damage",
+        "slug": "forceful-third"
+      }
+    ],
+    "slug": "warlock-conjured-weapon-manifest",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "magical",
+        "reach"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "spear",
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "simple",
+    "group": "spear",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d10",
+      "damageType": "force",
+      "persistent": null
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "reload": {
+      "value": null
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    }
+  },
+  "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+  "_id": "NvyQRKoKOIg2rWYi",
+  "_key": "!items!NvyQRKoKOIg2rWYi"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Basic Pact Magic",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn one 1st-rank invocation. Each time you learn a new invocation increase the number of Focus Points in your focus pool by 1. For the purpose of learning new invocations, your warlock level is equal to half your character level.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-basic-pact-magic",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlock Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+  "_id": "iZ1u0uiXuQY4wj2J",
+  "_key": "!items!iZ1u0uiXuQY4wj2J"
+}

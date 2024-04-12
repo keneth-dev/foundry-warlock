@@ -1,0 +1,39 @@
+{
+  "name": "Hellfire Blast",
+  "type": "action",
+  "system": {
+    "description": {
+      "value": "<p>Transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a @UUID[Compendium.pf2e-warlock.warlock-spells.Item.WdsUqwEQJrjg3D5H]{Hellfire Blast}. When you do so, change the blast's damage type to fire, give it the unholy trait, and add @Damage[2d10[spirit]] damage to the damage roll.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-hellfire-blast-ability",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "spellshape"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "img": "icons/magic/fire/projectile-fireball-smoke-orange-red.webp",
+  "_id": "FBSCoyJiciMRLmXx",
+  "_key": "!items!FBSCoyJiciMRLmXx"
+}

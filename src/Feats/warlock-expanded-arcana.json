@@ -1,0 +1,51 @@
+{
+  "name": "Expanded Arcana",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your grimoire gains a page to which you can copy a single spell of your patron's tradition. The source of the spell can be any number of things (such as a scroll, an ancient inscription, a stolen grimoire, etc.), but it must not exceed the highest rank of invocation you can cast at the time. You can cast this spell as you would any of your known invocations (expending a focus point if it's not a cantrip) by reading the entry.<br />    Spells copied to your grimoire in this manner can be removed by simply tearing out the page that contains them, causing it to immediately burst into flames and turn into ash. A new, empty page then replaces the old one, allowing you to copy a new spell.<br />    <strong>Special</strong> You can take this feat multiple times. Each time, your grimoire gains an additional page that you can copy a spell to.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-expanded-arcana",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Archivist Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-open-red.webp",
+  "_id": "02PahoRKHQCcnJlC",
+  "_key": "!items!02PahoRKHQCcnJlC"
+}

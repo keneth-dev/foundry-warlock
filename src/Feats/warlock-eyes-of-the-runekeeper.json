@@ -14,7 +14,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "warlock"
+        "archetype"
       ],
       "rarity": "common"
     },
@@ -25,7 +25,7 @@
       "remaster": false
     },
     "level": {
-      "value": 1
+      "value": 2
     },
     "category": "class",
     "onlyLevel1": false,
@@ -37,8 +37,13 @@
       "value": null
     },
     "prerequisites": {
-      "value": []
-    }
+      "value": [
+        {
+          "value": "Archivist Dedication"
+        }
+      ]
+    },
+    "location": null
   },
   "img": "icons/sundries/books/book-eye-pink.webp",
   "_id": "WeTzjFgBRXk4xlDy",

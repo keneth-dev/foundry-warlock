@@ -1,0 +1,40 @@
+{
+  "name": "Conjure Weapon",
+  "type": "action",
+  "system": {
+    "description": {
+      "value": "<p>You mold your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into the rough shape of a weapon. This weapon can take the shape of any melee weapon, but its statistics are always the same:  It is a one-handed weapon with the agile, magical, and reach traits and deals force damage equal to your eldritch blast damage. You can use your Charisma modifier instead of your Strength modifier on attack rolls using the conjured weapon.<br />    The weapon immediately dissipates if it leaves your hand for any reason (such as if you choose to drop it or you get disarmed).</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-class.Item.NvyQRKoKOIg2rWYi]{Conjured Weapon}</p>"
+    },
+    "rules": [],
+    "slug": "warlock-conjure-weapon",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "warlock"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 3
+    },
+    "deathNote": false
+  },
+  "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
+  "_id": "f7qqR57Ug1QqKcxP",
+  "_key": "!items!f7qqR57Ug1QqKcxP"
+}

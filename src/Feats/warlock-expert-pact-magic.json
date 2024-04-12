@@ -1,0 +1,59 @@
+{
+    "name": "Expert Pact Magic",
+    "type": "feat",
+    "system": {
+      "description": {
+        "value": "<p>Your proficiency ranks for spell attack rolls and spell DCs of your invocations increase to expert. You also learn a new 3rd-rank or lower invocation.</p>"
+      },
+      "rules": [],
+      "slug": "warlock-expert-pact-magic",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "level": {
+        "value": 12
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Basic Pact Magic"
+          }
+        ]
+      },
+      "location": null,
+      "subfeatures": {
+        "proficiencies": {
+          "spellcasting": {
+            "rank": 2
+          }
+        }
+      }
+    },
+    "img": "icons/magic/symbols/runes-triangle-blue.webp",
+    "_id": "rhBIy4IFfF1RcL07",
+    "_key": "!items!rhBIy4IFfF1RcL07"
+  }
+  

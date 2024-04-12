@@ -1,0 +1,51 @@
+{
+  "name": "Apostate Lore",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your grimoire gains a new page that can hold a single spell from a different tradition than your patron's. This works like @UUID[Compendium.pf2e-warlock.warlock-feats.Item.02PahoRKHQCcnJlC]{Expanded Arcana} except the highest rank of spell you can copy is three ranks lower than the highest rank you can invoke.<br />    <strong>Special</strong> You can take this feat multiple times. Each time, your grimoire gains an additional page that you can copy a spell to.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-apostate-lore",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expanded Arcana"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/scrolls/scroll-runed-brown-purple.webp",
+  "_id": "fQxwdcIokk4PsE0v",
+  "_key": "!items!fQxwdcIokk4PsE0v"
+}

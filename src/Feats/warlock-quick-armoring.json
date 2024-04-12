@@ -14,8 +14,8 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "archetype",
         "concentrate",
-        "warlock",
         "manipulate"
       ],
       "rarity": "common"
@@ -27,7 +27,7 @@
       "remaster": false
     },
     "level": {
-      "value": 1
+      "value": 2
     },
     "category": "class",
     "onlyLevel1": false,
@@ -39,8 +39,13 @@
       "value": 1
     },
     "prerequisites": {
-      "value": []
-    }
+      "value": [
+        {
+          "value": "Eldritch Glaive Dedication"
+        }
+      ]
+    },
+    "location": null
   },
   "img": "icons/equipment/chest/breastplate-layered-leather-black.webp",
   "_id": "qUc4r4B9cE6O79NW",

@@ -1,0 +1,88 @@
+{
+    "name": "Spell Effect: Hellfire Infusion",
+    "type": "effect",
+    "system": {
+      "description": {
+        "value": "<p>Granted by @UUID[Compendium.pf2e-warlock.warlock-feats.Item.Qzldlx5c7e7kueSw]{Hellfire Infusion}</p>\n<p>You can infuse your hellfire into your other spells and even item effects. If you cast a spell or use an item effect that deals energy damage, you can change the damage type and increase the damage like you would when using @UUID[Compendium.pf2e-warlock.warlock-spells.Item.WdsUqwEQJrjg3D5H]{Hellfire Blast}.</p>"
+      },
+      "rules": [
+        {
+          "key": "Note",
+          "title": "Hellfire Toll",
+          "selector": [
+            "spell-damage",
+            "spell-attack"
+          ],
+          "text": "User suffers @Damage[(@actor.flags.pf2e.hellwalker.hellfire)d10[spirit]|immutable] damage as hellfire burns their spirit."
+        },
+        {
+          "key": "DamageDice",
+          "selector": "spell-damage",
+          "override": {
+            "damageType": "fire"
+          },
+          "priority": 80
+        },
+        {
+          "key": "DamageDice",
+          "damageType": "spirit",
+          "diceNumber": "2 * @actor.flags.pf2e.hellwalker.hellfire",
+          "dieSize": "d10",
+          "label": "Hellfire",
+          "selector": "spell-damage"
+        },
+        {
+          "key": "ItemAlteration",
+          "itemType": "spell",
+          "mode": "add",
+          "property": "traits",
+          "value": "fire"
+        },
+        {
+          "key": "ItemAlteration",
+          "itemType": "spell",
+          "mode": "add",
+          "property": "traits",
+          "value": "unholy"
+        }
+      ],
+      "slug": "warlock-hellfire-infusion-effect",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": []
+      },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "level": {
+        "value": 10
+      },
+      "duration": {
+        "value": 1,
+        "unit": "rounds",
+        "expiry": "round-end",
+        "sustained": false
+      },
+      "start": {
+        "value": 0,
+        "initiative": null
+      },
+      "tokenIcon": {
+        "show": true
+      },
+      "badge": null,
+      "context": null,
+      "unidentified": false
+    },
+    "img": "icons/magic/fire/orb-vortex.webp",
+    "_id": "K0tqg3SrSnZswm7V",
+    "_key": "!items!K0tqg3SrSnZswm7V"
+  }
+  

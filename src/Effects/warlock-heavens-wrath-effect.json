@@ -24,6 +24,19 @@
         ]
       },
       {
+        "key": "DamageDice",
+        "critical": true,
+        "selector": "attack-damage",
+        "diceNumber": 1,
+        "diceSize": "d6",
+        "damageType": "spirit",
+        "category": "persistent",
+        "label": "Heaven's Wrath",
+        "predicate": [
+          "target:trait:devil"
+        ]
+      },
+      {
         "key": "FlatModifier",
         "selector": "attack",
         "value": 2,
@@ -31,6 +44,24 @@
           "target:trait:devil"
         ],
         "type": "status"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "mode": "add",
+        "property": "traits",
+        "value": "holy",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:warlock-eldritch-blast",
+              "item:slug:warlock-eldritch-breath-spell",
+              "item:slug:warlock-eldritch-doom-spell",
+              "item:slug:warlock-eldritch-rift-spell",
+              "item:slug:warlock-warlocks-hex"
+            ]
+          }
+        ]
       }
     ],
     "_migration": {

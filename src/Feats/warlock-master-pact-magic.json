@@ -1,0 +1,58 @@
+{
+  "name": "Master Pact Magic",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your proficiency ranks for spell attack rolls and spell DCs of your invocations increase to master. You also learn a new 5th-rank or lower invocation.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-master-pact-magic",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert Pact Magic"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+  "_id": "Bia6g4mazvXKcI0Q",
+  "_key": "!items!Bia6g4mazvXKcI0Q"
+}

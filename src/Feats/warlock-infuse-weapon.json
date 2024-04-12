@@ -1,0 +1,51 @@
+{
+  "name": "Infuse Weapon",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can temporarily apply a spellshape feat that modifies your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast}'s essence (such as @UUID[Compendium.pf2e-warlock.warlock-feats.Item.qIxgaIaGOWcqhoyX]{Brimstone Blast} or @UUID[Compendium.pf2e-warlock.warlock-feats.Item.hajsYsnHM2HcsUWh]{Repelling Blast}) to your conjured weapon. The effect lasts until the end of your turn.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-infused-weapon",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Eldritch Glaive Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/skills/melee/sword-stuck-glowing-pink.webp",
+  "_id": "ioYi1NZ087XgCOc4",
+  "_key": "!items!ioYi1NZ087XgCOc4"
+}

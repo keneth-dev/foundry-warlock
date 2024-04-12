@@ -1,0 +1,58 @@
+{
+    "name": "Blade Ward",
+    "type": "feat",
+    "effects": [],
+    "system": {
+      "description": {
+        "gm": "",
+        "value": "<p>You can use a Focus Point to grant yourself resistance 5 to all physical damage for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.kMNVNvXwyfLyvrnA]{Spell Effect: Blade Ward}</p>"
+      },
+      "rules": [],
+      "slug": "warlock-blade-ward",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "level": {
+        "value": 8
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "action"
+      },
+      "actions": {
+        "value": 2
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Disciple Dedication"
+          }
+        ]
+      },
+      "location": null,
+      "selfEffect": {
+        "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.kMNVNvXwyfLyvrnA",
+        "name": "Spell Effect: Blade Ward"
+      }
+    },
+    "img": "icons/skills/melee/sword-damaged-broken-orange.webp",
+    "_id": "q3TIUFDLhB7yXIMH",
+    "_key": "!items!q3TIUFDLhB7yXIMH"
+  }
+  

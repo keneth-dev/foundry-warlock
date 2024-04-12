@@ -1,0 +1,55 @@
+{
+  "name": "Divine Fervor",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can use a Focus Point to enter a state of divine fury, gaining a +2 status bonus to all attack rolls (including spell attacks), as well as a +10-foot status bonus to all Speeds for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.TISAYukWnipyQy6c]{Spell Effect: Divine Fervor}</p>"
+    },
+    "rules": [],
+    "slug": "warlock-divine-fervor",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Divine Fervor"
+        }
+      ]
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.TISAYukWnipyQy6c",
+      "name": "Spell Effect: Divine Fervor"
+    }
+  },
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "_id": "Praf06TcHtDV9L6b",
+  "_key": "!items!Praf06TcHtDV9L6b"
+}

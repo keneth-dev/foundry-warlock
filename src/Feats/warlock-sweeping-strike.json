@@ -1,0 +1,61 @@
+{
+  "name": "Sweeping Strike",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your conjured weapon gains the sweep trait, in addition to any other traits it might already have.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:slug:warlock-conjured-weapon-manifest"
+        ],
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "sweep"
+      }
+    ],
+    "slug": "warlock-sweeping-strike",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Eldritch Glaive Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
+  "_id": "7OKLGxrIZxt0al8b",
+  "_key": "!items!7OKLGxrIZxt0al8b"
+}

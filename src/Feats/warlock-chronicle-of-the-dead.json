@@ -1,0 +1,52 @@
+{
+    "name": "Chronicle of the Dead",
+    "type": "feat",
+    "system": {
+      "description": {
+        "value": "<p>You can place a corpse's hand or similar appendage onto your grimoire and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature's spirit to the best of its knowledge and is translated into a language you can understand. A given corpse can only be asked one question in this manner.</p>"
+      },
+      "rules": [],
+      "slug": "warlock-chronicle-of-the-dead",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "level": {
+        "value": 8
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Archivist Dedication"
+          }
+        ]
+      },
+      "location": null
+    },
+    "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+    "_id": "lre05o5vD4uitEHy",
+    "_key": "!items!lre05o5vD4uitEHy"
+  }
+  

@@ -1,0 +1,60 @@
+{
+  "name": "Hellwalker Dedication",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The hellwalkers are a secretive group of specialist warlocks who have mastered hellfire, a dangerous energy found only in Hell. You gain the ability to unleash a @UUID[Compendium.pf2e-warlock.warlock-spells.Item.WdsUqwEQJrjg3D5H]{Hellfire Blast} upon your enemies.</p>\n<p>New ability: @UUID[Compendium.pf2e-warlock.warlock-abilities.Item.FBSCoyJiciMRLmXx]{Hellfire Blast}</p>\n<p>Each time you activate an ability granted by this archetype, you also take @Damage[1d10[spirit]] damage. Because the diabolical forces behind the power of hellfire demand part of your essence in exchange for this granted power, if you are somehow immune to spirit damage, you cannot use this ability.<br />    <strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the hellwalker archetype.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlock.warlock-abilities.Item.FBSCoyJiciMRLmXx"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.hellwalker.hellfire",
+        "value": 1
+      }
+    ],
+    "slug": "warlock-hellwalker-dedication",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
+  "_id": "AYtjH9zU0aACzUI0",
+  "_key": "!items!AYtjH9zU0aACzUI0"
+}

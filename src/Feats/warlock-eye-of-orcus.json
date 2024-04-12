@@ -5,14 +5,7 @@
     "description": {
       "value": "<p>Orcus grants you the ability to perceive the life force of creatures around you. You gain lifesense as an imprecise sense out to 120 ft.</p>"
     },
-    "rules": [
-      {
-        "acuity": "imprecise",
-        "key": "Sense",
-        "range": 120,
-        "selector": "lifesense"
-      }
-    ],
+    "rules": [],
     "_migration": {
       "version": 0.88,
       "lastMigration": null
@@ -49,6 +42,15 @@
           "value": "Orcus patron"
         }
       ]
+    },
+    "location": null,
+    "subfeatures": {
+      "senses": {
+        "lifesense": {
+          "acuity": "imprecise",
+          "range": 120
+        }
+      }
     }
   },
   "_id": "HSTyDQUMu1ndy7ZD",

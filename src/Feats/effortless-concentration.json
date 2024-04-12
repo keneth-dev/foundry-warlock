@@ -1,0 +1,48 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Effortless Concentration",
+  "system": {
+    "description": {
+      "value": "<p><strong>Trigger</strong> Your turn begins.</p>\n<hr />\n<p>You maintain your active spells with hardly a thought. You immediately gain the effects of a Sustain action for one of your active class spells.</p>"
+    },
+    "rules": [],
+    "slug": "effortless-concentration",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_id": "jwv4YYaJcjfz89VM",
+  "_key": "!items!jwv4YYaJcjfz89VM"
+}

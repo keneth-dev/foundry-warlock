@@ -1,0 +1,55 @@
+{
+    "name": "Eldritch Glaive Dedication",
+    "type": "feat",
+    "system": {
+      "description": {
+        "value": "<p>Eldritch glaives are warlocks who prefer to stay on the front lines. They are the brutal enforcers of their patron's will. As an eldritch glaive, you gain the @UUID[Compendium.pf2e-warlock.warlock-abilities.Item.f7qqR57Ug1QqKcxP]{Conjure Weapon} ability.<br />    <strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the eldritch glaive archetype.</p>"
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-warlock.warlock-abilities.Item.f7qqR57Ug1QqKcxP"
+        }
+      ],
+      "slug": "warlock-eldritch-glaive-dedication",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "archetype",
+          "class",
+          "dedication"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "level": {
+        "value": 1
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
+    "_id": "dNZxAaDnUlYxzCGI",
+    "_key": "!items!dNZxAaDnUlYxzCGI"
+  }
+  

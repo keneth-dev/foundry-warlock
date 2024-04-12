@@ -3,7 +3,7 @@
   "type": "spell",
   "system": {
     "description": {
-      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a <em>brimstone blast</em>. A <em>brimstone blast</em> deals fire damage, gains the fire trait, and if you critically hit a creature, it takes an additional @Damage[1d6[persistent,fire]] damage per spell rank.</p>"
+      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a <em>brimstone blast</em>. A <em>brimstone blast</em> deals fire damage, gains the fire trait, and if you critically hit a creature, it takes an additional @Damage[(@item.level)d6[persistent,fire]] damage (instead of double damage).</p>"
     },
     "rules": [],
     "_migration": {

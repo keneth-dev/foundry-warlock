@@ -1,0 +1,56 @@
+{
+  "name": "Armored Spellcaster",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain the Armor Proficiency general feat as an archetype feat. It is otherwise identical to that feat.<br /><strong>    Special</strong> You can select this feat more than once, until you are proficient in heavy armor.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.BStw1cANwx5baL6d"
+      }
+    ],
+    "slug": "warlock-armored-spellcaster",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 2,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Eldritch Glaive Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
+  "_id": "ns98srNym8WnQ6AT",
+  "_key": "!items!ns98srNym8WnQ6AT"
+}

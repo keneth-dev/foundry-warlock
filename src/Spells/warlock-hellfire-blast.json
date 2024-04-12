@@ -1,0 +1,97 @@
+{
+  "name": "Hellfire Blast",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>You transform your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} into a <em>hellfire blast</em>. When you do so, change the blast's damage type to fire, give it the unholy trait, and add @Damage[2d10[spirit]|immutable] damage to the damage roll.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "title": "Hellfire Toll",
+        "selector": "{item|id}-attack",
+        "text": "User suffers @Damage[(@actor.flags.pf2e.hellwalker.hellfire)d10[spirit]|immutable] damage as hellfire burns their spirit."
+      },
+      {
+        "key": "DamageDice",
+        "damageType": "spirit",
+        "diceNumber": "2 * @actor.flags.pf2e.hellwalker.hellfire",
+        "dieSize": "d10",
+        "label": "Hellfire",
+        "selector": "{item|id}-damage",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "warlock-hellfire-blast",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "fire",
+        "unholy",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 or more creatures"
+    },
+    "range": {
+      "value": "120"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "4ELqDjciRtMAdfHR": {
+        "formula": "1d10",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "4ELqDjciRtMAdfHR": "1d10"
+      }
+    }
+  },
+  "img": "icons/magic/fire/projectile-fireball-smoke-orange-red.webp",
+  "_id": "WdsUqwEQJrjg3D5H",
+  "_key": "!items!WdsUqwEQJrjg3D5H"
+}

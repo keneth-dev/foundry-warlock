@@ -1,0 +1,51 @@
+{
+  "name": "Eldritch Spellweave",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can apply a spellshape feat that would otherwise only affect your @UUID[Compendium.pf2e-warlock.warlock-spells.Item.Nur1CbemWaor1hcv]{Eldritch Blast} to any divine spell that affects a target and deals damage.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-eldritch-spellweave",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Disciple Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "_id": "irTRNVcv06OAHEr1",
+  "_key": "!items!irTRNVcv06OAHEr1"
+}

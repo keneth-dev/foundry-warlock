@@ -1,0 +1,68 @@
+{
+  "name": "Greater Hellfire",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When using your @UUID[Compendium.pf2e-warlock.warlock-abilities.Item.FBSCoyJiciMRLmXx]{Hellfire Blast} ability, you can add an additional @Damage[2d10[spirit]] damage by taking an extra @Damage[1d10[spirit]] damage yourself.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "greater-hellfire",
+        "toggleable": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.hellwalker.hellfire",
+        "value": 1,
+        "predicate": [
+          "greater-hellfire"
+        ],
+        "priority": 55
+      }
+    ],
+    "slug": "warlock-greater-hellfire",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Hellwalker Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/projectile-fireball-smoke-orange.webp",
+  "_id": "aOALExkf7MRQuioG",
+  "_key": "!items!aOALExkf7MRQuioG"
+}

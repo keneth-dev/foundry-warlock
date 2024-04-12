@@ -1,0 +1,51 @@
+{
+  "name": "Timeless Body",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The divine power of your patron infuses you with eternal vigor. You no longer age or die from old age.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-timeless-body",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Disciple Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/control/silhouette-hold-change-green.webp",
+  "_id": "mW30iycwU0oLqmeF",
+  "_key": "!items!mW30iycwU0oLqmeF"
+}

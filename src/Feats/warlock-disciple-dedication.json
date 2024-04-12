@@ -1,0 +1,56 @@
+{
+  "name": "Disciple Dedication",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Disciples are warlocks who act both as clerics and pact agents of a god's will. When you select this dedication, choose a domain from your patron deity's list. You can cast the initial domain spell for that domain as a warlock invocation. When you reach 10th level, you gain the ability to invoke the advanced domain spell as a warlock invocation.<br />    <strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the disciple archetype.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-disciple-dedication",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "cleric spellcasting"
+        },
+        {
+          "value": "pact magic"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "_id": "ycM5dQQj0FtDk7Ai",
+  "_key": "!items!ycM5dQQj0FtDk7Ai"
+}

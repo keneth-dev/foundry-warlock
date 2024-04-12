@@ -1,0 +1,57 @@
+{
+  "name": "Hellfire Infusion",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You can infuse your hellfire into your other spells and even item effects. If you cast a spell or use an item effect that deals energy damage, you can change the damage type and increase the damage like you would when using @UUID[Compendium.pf2e-warlock.warlock-spells.Item.WdsUqwEQJrjg3D5H]{Hellfire Blast}.</p>\n<p>@UUID[Compendium.pf2e-warlock.warlock-effects.Item.K0tqg3SrSnZswm7V]{Spell Effect: Hellfire Infusion}</p>"
+    },
+    "rules": [],
+    "slug": "warlock-hellfire-infusion",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "concentrate",
+        "spellshape"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Hellwalker Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlock.warlock-effects.Item.K0tqg3SrSnZswm7V",
+      "name": "Spell Effect: Hellfire Infusion"
+    }
+  },
+  "img": "icons/magic/fire/orb-vortex.webp",
+  "_id": "Qzldlx5c7e7kueSw",
+  "_key": "!items!Qzldlx5c7e7kueSw"
+}

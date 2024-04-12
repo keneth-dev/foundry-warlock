@@ -98,9 +98,6 @@
           }
         },
         "_id": "ACKTD3lRBhLk63h7",
-        "_stats": {
-          "modifiedTime": 1699955881813
-        },
         "overlayType": "override"
       },
       "quKIQp7Mh4tmziNF": {
@@ -134,9 +131,6 @@
           }
         },
         "_id": "quKIQp7Mh4tmziNF",
-              "_stats": {
-          "modifiedTime": 1699955920107
-        },
         "overlayType": "override"
       }
     }

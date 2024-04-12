@@ -1,0 +1,48 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Cantrip Expansion",
+  "system": {
+    "description": {
+      "value": "<p>Study broadens your range of simple spells. Add two additional cantrips from your spell list to your repertoire.</p>"
+    },
+    "rules": [],
+    "slug": "cantrip-expansion",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlock"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_id": "wIqQVU4eXrROJGzS",
+  "_key": "!items!wIqQVU4eXrROJGzS"
+}

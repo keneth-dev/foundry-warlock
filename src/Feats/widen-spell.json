@@ -1,0 +1,51 @@
+{
+    "img": "icons/sundries/books/book-red-exclamation.webp",
+    "name": "Widen Spell",
+    "system": {
+      "description": {
+        "value": "<p>You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.</p>"
+      },
+      "rules": [],
+      "slug": "widen-spell",
+      "_migration": {
+        "version": 0.925,
+        "lastMigration": null,
+        "previous": null
+      },
+      "traits": {
+        "otherTags": [],
+        "value": [
+          "manipulate",
+          "spellshape",
+          "warlock"
+        ],
+        "rarity": "common"
+      },
+      "publication": {
+        "title": "Pathfinder Player Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      },
+      "level": {
+        "value": 1
+      },
+      "category": "class",
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "action"
+      },
+      "actions": {
+        "value": 1
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "_id": "Rq81hiRqddkZm6bm",
+    "_key": "!items!Rq81hiRqddkZm6bm"
+  }
+  

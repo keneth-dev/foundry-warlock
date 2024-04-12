@@ -1,0 +1,51 @@
+{
+  "name": "Hellfire Shield",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p class=\"hang\"><strong>Trigger</strong> You are hit by a melee attack.</p>\n<hr />\n<p>Your body is wreathed in hellfire, protecting you from attackers. When a creature successfully hits you with a melee attack, you can immediately attack them with a single @UUID[Compendium.pf2e-warlock.warlock-spells.Item.WdsUqwEQJrjg3D5H]{Hellfire Blast}.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-hellfire-shield",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Greater Hellfire"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
+  "_id": "x1ygdPBbzfEbZXrE",
+  "_key": "!items!x1ygdPBbzfEbZXrE"
+}

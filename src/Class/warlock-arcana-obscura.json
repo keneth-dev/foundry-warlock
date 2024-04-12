@@ -1,0 +1,74 @@
+{
+  "name": "Arcana Obscura",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<p>This grimoire holds the esoteric knowledge necessary for an archivist warlock to cast their unique spells. Reading from an archivist's grimoire is a surefire way to garner the attention of their patron.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-arcana-obscura",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+  "_id": "DuAvMPo3I97PHIu5",
+  "_key": "!items!DuAvMPo3I97PHIu5"
+}

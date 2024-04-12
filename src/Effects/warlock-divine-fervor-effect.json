@@ -1,0 +1,54 @@
+{
+  "name": "Spell Effect: Divine Fervor",
+  "type": "effect",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-warlock.warlock-feats.Item.Praf06TcHtDV9L6b]{Divine Fervor}</p>\n<p>You enter a state of divine fury, gaining a +2 status bonus to all attack rolls (including spell attacks), as well as a +10-foot status bonus to all Speeds for 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "value": 2,
+        "type": "status"
+      }
+    ],
+    "slug": "warlock-divine-fervor-effect",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "_id": "TISAYukWnipyQy6c",
+  "_key": "!items!TISAYukWnipyQy6c"
+}

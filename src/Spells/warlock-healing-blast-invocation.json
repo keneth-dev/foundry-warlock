@@ -1,0 +1,81 @@
+{
+  "name": "Healing Blast",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>A <em>healing blast</em> heals living creatures instead of dealing damage to them. If the target is undead, it takes twice the amount of vitality damage instead.</p>"
+    },
+    "rules": [],
+    "slug": "warlock-healing-blast-invocation",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "vitality",
+        "warlock"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 or more creatures"
+    },
+    "range": {
+      "value": "120"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "fSZejObWONoeQj3a": {
+        "formula": "1d10",
+        "kinds": [
+          "healing"
+        ],
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "fSZejObWONoeQj3a": "1d10"
+      }
+    },
+    "overlays": {}
+  },
+  "img": "icons/magic/light/beam-rays-teal-large.webp",
+  "_id": "uK0kQqCt6EcT2izn",
+  "_key": "!items!uK0kQqCt6EcT2izn"
+}
